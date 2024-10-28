@@ -4,16 +4,16 @@ Welcome in Gianpiero Fiorino's technical writing portfolio. Here I am showcasing
 ## Projects
 
 ### 1. [NASA Mars Rover Photos API Documentation](https://github.com/GFiorino/NASA-Mars-Rover-Photos-API-Documentation)
-   This project documents the NASA Mars Rover Photos API, providing clear and concise information on how to access images captured by the Mars rovers. It includes usage instructions, endpoint descriptions, parameters, and example requests and responses to assist developers in utilizing this public API.
+   This documentation provides developers with clear guidelines on accessing NASA’s Mars Rover Photos API. It covers setup, endpoint usage, and example requests, allowing users to integrate Mars rover images into their applications with ease. Designed for developers and space enthusiasts alike.
 
 ### 2. [How To Secure Home Wi-Fi Guide](https://github.com/GFiorino/Secure-WiFi-Guide)
-   A step-by-step guide aimed at helping users secure their Wi-Fi networks. This guide covers basic to advanced security settings, troubleshooting tips, and best practices, making it suitable for both technical and non-technical audiences concerned about digital security.
+   A practical guide for securing home WiFi networks, covering essential security practices to protect against common vulnerabilities. Ideal for non-technical users, it simplifies network security steps to help safeguard personal data and enhance home internet privacy.
 
 ### 3. [AI-Enhanced Cybersecurity Strategies for Small Businesses](https://github.com/GFiorino/AI-Enhanced-Cybersecurity-Strategies-for-Small-Businesses)
-   A practical guide that introduces small businesses to the benefits of integrating AI into their cybersecurity strategies. This project covers essential security practices, AI tools for threat detection, and actionable steps tailored for small and medium-sized enterprises to protect their digital assets efficiently.
+  This guide documents AI-enhanced cybersecurity best practices specifically tailored for small to medium enterprises (SMEs). It offers actionable strategies, with examples of how AI can strengthen defenses against cyber threats, making complex cybersecurity concepts accessible to non-experts.
 
 ### 4. [OpenWeather API Documentation](https://github.com/GFiorino/OpenWeather-API-DOC)
-   This documentation provides a comprehensive guide for the OpenWeather API, detailing endpoint usage, parameters, and data formats. It helps developers seamlessly integrate weather data into their applications, with example calls and responses to simplify the learning process.
+  Comprehensive documentation for the OpenWeather API, providing developers with detailed information on retrieving weather data for various locations. This guide includes setup, endpoints, and sample code to help users integrate real-time weather updates into their applications effectively.
 
 ### 5. [Profile: Gianpiero Fiorino](https://github.com/GFiorino/PROFILE-Gianpiero-Fiorino)
   It provides a snapshot of my expertise and career goals, tailored for potential employers and collaborators.

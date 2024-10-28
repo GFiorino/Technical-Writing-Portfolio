@@ -6,7 +6,7 @@ Welcome in Gianpiero Fiorino's technical writing portfolio. Here I am showcasing
 ### 1. [NASA Mars Rover Photos API Documentation](https://github.com/GFiorino/NASA-Mars-Rover-Photos-API-Documentation)
    This project documents the NASA Mars Rover Photos API, providing clear and concise information on how to access images captured by the Mars rovers. It includes usage instructions, endpoint descriptions, parameters, and example requests and responses to assist developers in utilizing this public API.
 
-### 2. [Secure Wi-Fi Guide](https://github.com/GFiorino/Secure-WiFi-Guide)
+### 2. [How To Secure Home Wi-Fi Guide](https://github.com/GFiorino/Secure-WiFi-Guide)
    A step-by-step guide aimed at helping users secure their Wi-Fi networks. This guide covers basic to advanced security settings, troubleshooting tips, and best practices, making it suitable for both technical and non-technical audiences concerned about digital security.
 
 ### 3. [AI-Enhanced Cybersecurity Strategies for Small Businesses](https://github.com/GFiorino/AI-Enhanced-Cybersecurity-Strategies-for-Small-Businesses)

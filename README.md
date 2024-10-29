@@ -9,7 +9,7 @@ Welcome in Gianpiero Fiorino's technical writing portfolio. Here I am showcasing
 ### 2. [OpenWeather API Documentation](https://github.com/GFiorino/OpenWeather-API-DOC)
   Comprehensive documentation for the OpenWeather API, providing developers with detailed information on retrieving weather data for various locations. This guide includes setup, endpoints, and sample code to help users integrate real-time weather updates into their applications effectively.
   
-### 3. [How To Secure Home Wi-Fi Guide](https://github.com/GFiorino/Secure-WiFi-Guide)
+### 3. [How To Secure Home Wi-Fi Guide](https://github.com/GFiorino/How-to-Secure-Home-WiFi-Guide)
    A practical guide for securing home WiFi networks, covering essential security practices to protect against common vulnerabilities. Ideal for non-technical users, it simplifies network security steps to help safeguard personal data and enhance home internet privacy.
 
 ### 4. [AI-Enhanced Cybersecurity Strategies for Small Businesses](https://github.com/GFiorino/AI-Enhanced-Cybersecurity-Strategies-for-Small-Businesses)

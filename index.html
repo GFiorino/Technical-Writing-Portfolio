@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gianpiero Fiorino - Technical Writing Portfolio</title>
     <style>
         body {
@@ -16,10 +18,12 @@
             color: #0056b3;
             text-align: center;
             font-size: 2.5em;
+            margin-bottom: 10px;
         }
         h2 {
             color: #333;
             font-size: 1.8em;
+            margin-bottom: 20px;
         }
         a {
             color: #007acc;
@@ -29,14 +33,15 @@
             text-decoration: underline;
         }
         .project {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             padding: 15px;
             border: 1px solid #ddd;
             border-radius: 8px;
             background-color: #fff;
         }
         .project h3 {
-            margin: 0;
+            margin: 0 0 10px 0;
+            font-size: 1.4em;
         }
         .project p {
             margin: 5px 0 0;
@@ -44,17 +49,28 @@
         .label {
             text-align: right;
             font-size: 0.9em;
-            color: #555;
             margin-top: 10px;
         }
         .label span {
-            background-color: #e0e0e0;
             padding: 5px 10px;
             border-radius: 4px;
+            font-weight: bold;
+        }
+        .label-html span {
+            background-color: #ccf2f4;
+            color: #007b83;
+        }
+        .label-github span {
+            background-color: #ffc107;
+            color: #856404;
         }
         img {
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
+            width: 60%;
+            max-width: 600px;
+            margin: auto;
+            display: block;
         }
         footer {
             margin-top: 30px;
@@ -62,14 +78,28 @@
             text-align: center;
             color: #666;
         }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            img {
+                width: 90%;
+            }
+            .project {
+                padding: 10px;
+            }
+        }
     </style>
 </head>
 <body>
     <!-- Hero Image Section -->
     <div style="text-align: center; margin-bottom: 20px;">
         <img src="https://github.com/GFiorino/Technical-Writing-Portfolio/blob/main/technical-writer-1024x512.png?raw=true" 
-             alt="Technical Writing Banner" 
-             style="width: 80%; max-width: 600px;">
+             alt="Technical Writing Banner">
+        <p style="text-align: center; color: #555; font-size: 1.2em; margin-top: 10px;">
+            Simplifying Complex Concepts Through Clear and User-Friendly Documentation
+        </p>
     </div>
 
     <h1>Technical Writing Portfolio</h1>
@@ -79,74 +109,65 @@
     <h2>Projects</h2>
 
     <!-- Project Section -->
-  <div class="project">
-    <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API: Automating Task Management with Postman</a></h3>
-    <p><strong>Description:</strong> A detailed guide for automating tasks using the Trello API. This project demonstrates my ability to create clear, professional API documentation.</p>
-    <p><strong>Features:</strong></p>
-    <ul>
-        <li>Instructions for setting up Trello API authentication</li>
-        <li>Endpoint usage examples (adding cards, managing lists, etc.)</li>
-        <li>Interactive examples and troubleshooting tips</li>
-    </ul>
-    <div class="label" style="text-align: right; font-size: 0.9em;">
-        <span style="background-color: #ccf2f4; color: #007b83; padding: 5px 10px; border-radius: 4px;">HTML</span>
+    <div class="project">
+        <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API: Automating Task Management with Postman</a></h3>
+        <p><strong>Description:</strong> A detailed guide for automating tasks using the Trello API. This project demonstrates my ability to create clear, professional API documentation.</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Instructions for setting up Trello API authentication</li>
+            <li>Endpoint usage examples (adding cards, managing lists, etc.)</li>
+            <li>Interactive examples and troubleshooting tips</li>
+        </ul>
+        <div class="label label-html"><span>HTML</span></div>
     </div>
-</div>
-<div class="project">
-    <h3><a href="https://github.com/GFiorino/NASA-Mars-Rover-Photos-API-Documentation">NASA Mars Rover Photos API Documentation</a></h3>
-    <p><strong>Description:</strong> Clear guidelines on accessing NASA’s Mars Rover Photos API, designed for developers and space enthusiasts.</p>
-    <p><strong>Features:</strong></p>
-    <ul>
-        <li>Setup instructions for API integration</li>
-        <li>Detailed endpoint usage</li>
-        <li>Sample requests and responses for seamless implementation</li>
-    </ul>
-    <div class="label" style="text-align: right; font-size: 0.9em;">
-        <span style="background-color: #ffffcc; color: #cc9900; padding: 5px 10px; border-radius: 4px;">GitHub</span>
+    
+    <div class="project">
+        <h3><a href="https://github.com/GFiorino/NASA-Mars-Rover-Photos-API-Documentation">NASA Mars Rover Photos API Documentation</a></h3>
+        <p><strong>Description:</strong> Clear guidelines on accessing NASA’s Mars Rover Photos API, designed for developers and space enthusiasts.</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Setup instructions for API integration</li>
+            <li>Detailed endpoint usage</li>
+            <li>Sample requests and responses for seamless implementation</li>
+        </ul>
+        <div class="label label-github"><span>GitHub</span></div>
     </div>
-</div>
 
-<div class="project">
-    <h3><a href="https://github.com/GFiorino/OpenWeather-API-DOC">OpenWeather API Documentation</a></h3>
-    <p><strong>Description:</strong> A comprehensive guide for developers to retrieve weather data from the OpenWeather API.</p>
-    <p><strong>Features:</strong></p>
-    <ul>
-        <li>Step-by-step setup process</li>
-        <li>Endpoint breakdown for weather data retrieval</li>
-        <li>Real-world sample code for quick integration</li>
-    </ul>
-    <div class="label" style="text-align: right; font-size: 0.9em;">
-        <span style="background-color: #ffffcc; color: #cc9900; padding: 5px 10px; border-radius: 4px;">GitHub</span>
+    <div class="project">
+        <h3><a href="https://github.com/GFiorino/OpenWeather-API-DOC">OpenWeather API Documentation</a></h3>
+        <p><strong>Description:</strong> A comprehensive guide for developers to retrieve weather data from the OpenWeather API.</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Step-by-step setup process</li>
+            <li>Endpoint breakdown for weather data retrieval</li>
+            <li>Real-world sample code for quick integration</li>
+        </ul>
+        <div class="label label-github"><span>GitHub</span></div>
     </div>
-</div>
 
-<div class="project">
-    <h3><a href="https://github.com/GFiorino/How-to-Secure-Home-WiFi-Guide">How to Secure Home Wi-Fi Guide</a></h3>
-    <p><strong>Description:</strong> A non-technical guide to securing home WiFi networks, helping users enhance privacy and protect against vulnerabilities.</p>
-    <p><strong>Features:</strong></p>
-    <ul>
-        <li>Step-by-step security practices</li>
-        <li>Simplified explanations for non-technical users</li>
-        <li>Actionable tips to safeguard personal data</li>
-    </ul>
-    <div class="label" style="text-align: right; font-size: 0.9em;">
-        <span style="background-color: #ffffcc; color: #cc9900; padding: 5px 10px; border-radius: 4px;">GitHub</span>
+    <div class="project">
+        <h3><a href="https://github.com/GFiorino/How-to-Secure-Home-WiFi-Guide">How to Secure Home Wi-Fi Guide</a></h3>
+        <p><strong>Description:</strong> A non-technical guide to securing home WiFi networks, helping users enhance privacy and protect against vulnerabilities.</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Step-by-step security practices</li>
+            <li>Simplified explanations for non-technical users</li>
+            <li>Actionable tips to safeguard personal data</li>
+        </ul>
+        <div class="label label-github"><span>GitHub</span></div>
     </div>
-</div>
 
-<div class="project">
-    <h3><a href="https://github.com/GFiorino/AI-Enhanced-Cybersecurity-Strategies-for-Small-Businesses">AI-Enhanced Cybersecurity Strategies for Small Businesses</a></h3>
-    <p><strong>Description:</strong> Actionable strategies leveraging AI to strengthen cybersecurity for small and medium enterprises (SMEs).</p>
-    <p><strong>Features:</strong></p>
-    <ul>
-        <li>Practical examples of AI-enhanced cybersecurity solutions</li>
-        <li>Tailored guidance for non-expert audiences</li>
-        <li>Scalable strategies to meet SMEs’ security needs</li>
-    </ul>
-    <div class="label" style="text-align: right; font-size: 0.9em;">
-        <span style="background-color: #ffffcc; color: #cc9900; padding: 5px 10px; border-radius: 4px;">GitHub</span>
+    <div class="project">
+        <h3><a href="https://github.com/GFiorino/AI-Enhanced-Cybersecurity-Strategies-for-Small-Businesses">AI-Enhanced Cybersecurity Strategies for Small Businesses</a></h3>
+        <p><strong>Description:</strong> Actionable strategies leveraging AI to strengthen cybersecurity for small and medium enterprises (SMEs).</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Practical examples of AI-enhanced cybersecurity solutions</li>
+            <li>Tailored guidance for non-expert audiences</li>
+            <li>Scalable strategies to meet SMEs’ security needs</li>
+        </ul>
+        <div class="label label-github"><span>GitHub</span></div>
     </div>
-</div>
 
     <h2>Contact Me</h2>
     <p>Feel free to explore each project, and reach out if you're interested in collaboration or have questions about my work!</p>
@@ -161,4 +182,3 @@
     </footer>
 </body>
 </html>
-    

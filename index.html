@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-<div style="text-align: center; margin-bottom: 20px;img {
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}>
-    <img src="https://github.com/GFiorino/Technical-Writing-Portfolio/blob/main/technical-writer-1024x512.png?raw=true alt="Technical Writing Banner" style="width: 100%; max-width: 800px; border-radius: 8px;">
-</div>
-
 <html>
 <head>
     <title>Gianpiero Fiorino - Technical Writing Portfolio</title>
@@ -18,8 +12,14 @@
             background-color: #f9f9f9;
             color: #333;
         }
-        h1, h2 {
-            color: #00509e;
+        h1 {
+            color: #0056b3; /* Updated title color */
+            text-align: center;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #333;
+            font-size: 1.8em;
         }
         a {
             color: #007acc;
@@ -41,6 +41,10 @@
         .project p {
             margin: 5px 0 0;
         }
+        img {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for image */
+            border-radius: 8px;
+        }
         footer {
             margin-top: 30px;
             font-size: 0.9em;
@@ -50,12 +54,20 @@
     </style>
 </head>
 <body>
+    <!-- Hero Image Section -->
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img src="https://github.com/GFiorino/Technical-Writing-Portfolio/blob/main/technical-writer-1024x512.png?raw=true" 
+             alt="Technical Writing Banner" 
+             style="width: 100%; max-width: 800px;">
+    </div>
+
     <h1>Technical Writing Portfolio</h1>
     <h2>Welcome to Gianpiero Fiorino's Portfolio</h2>
     <p>Explore my work as an <strong>entry-level technical writer</strong>, showcasing expertise in <strong>API documentation</strong>, <strong>cybersecurity writing</strong>, and <strong>user guides</strong>. Each project is designed to be <strong>clear</strong>, <strong>user-friendly</strong>, and <strong>informative</strong>.</p>
     
     <h2>Projects</h2>
 
+    <!-- Project Section -->
     <div class="project">
         <h3><a href="https://gfiorino.github.io/Trello_Automating_Guide/">Trello API: Automating Task Management with Postman</a></h3>
         <p><strong>Description:</strong> A detailed guide for automating tasks using the Trello API. This project demonstrates my ability to create clear, professional API documentation.</p>
@@ -110,8 +122,6 @@
             <li>Scalable strategies to meet SMEs’ security needs</li>
         </ul>
     </div>
-
-   
 
     <h2>Contact Me</h2>
     <p>Feel free to explore each project, and reach out if you're interested in collaboration or have questions about my work!</p>

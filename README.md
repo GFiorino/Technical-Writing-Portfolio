@@ -1,6 +1,5 @@
 
-[
-](https://github.com/GFiorino/Technical-Writing-Portfolio/blob/main/technical-writer-1024x512.png?raw=true)# Technical Writing Portfolio
+
 
 Welcome to my portfolio showcasing my work as a technical writer. This repository highlights my expertise in API documentation, cybersecurity writing, and user guides.
 

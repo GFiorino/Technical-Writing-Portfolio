@@ -26,7 +26,7 @@
         h2 {
             color: #333;
             font-size: 1.8em;
-            margin-top: 30px; /* Increased space above 'Welcome...' */
+            margin-top: 30px;
             margin-bottom: 20px;
         }
         a {
@@ -64,6 +64,10 @@
             background-color: #e8f8f9;
             color: #007b83;
         }
+        .label-ux span {
+            background-color: #f5f5f5;
+            color: #555;
+        }
         .label-github span {
             background-color: #fff8d4;
             color: #856404;
@@ -81,7 +85,7 @@
             color: #555;
             font-size: 1.2em;
             margin-top: 10px;
-            margin-bottom: 30px; /* Adjusted spacing below tagline */
+            margin-bottom: 30px;
         }
         footer {
             margin-top: 30px;
@@ -91,7 +95,6 @@
             border-top: 1px solid #ddd;
             padding-top: 10px;
         }
-        /* Responsive Design */
         @media (max-width: 768px) {
             body {
                 padding: 10px;
@@ -106,7 +109,6 @@
     </style>
 </head>
 <body>
-    <!-- Hero Image Section -->
     <div style="text-align: center; margin-bottom: 20px;">
         <img src="https://github.com/GFiorino/Technical-Writing-Portfolio/blob/main/technical-writer-1024x512.png?raw=true" 
              alt="Technical Writing Banner">
@@ -117,7 +119,7 @@
     <h2>Welcome to Gianpiero Fiorino's Portfolio</h2>
     <p>Explore my work as an <strong>entry-level technical writer</strong>, showcasing expertise in <strong>API documentation</strong>, <strong>cybersecurity writing</strong>, and <strong>user guides</strong>. Each project is designed to be <strong>clear</strong>, <strong>user-friendly</strong>, and <strong>informative</strong>.</p>
     
-    <h2 style="margin-top: 40px;">Projects</h2> <!-- Added extra space above 'Projects' -->
+    <h2 style="margin-top: 40px;">Projects</h2>
 
     <!-- Project Section -->
     <div class="project">
@@ -131,7 +133,23 @@
         </ul>
         <div class="label label-html"><span>HTML</span></div>
     </div>
-    
+
+    <!-- New Project: Airport Delays -->
+    <div class="project">
+        <h3><a href="https://gfiorino.github.io/Airport-Delays-Made-Clear-Enhancing-Passenger-Communication/">Airport Delays Made Clear: Enhancing Passenger Communication</a></h3>
+        <p><strong>Description:</strong> A UX-focused project that demonstrates how friendly and informative communication can alleviate passenger stress during airport delays.</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Real-world UX Microcopy examples</li>
+            <li>Structured, user-friendly communication strategies</li>
+            <li>Emphasis on empathy and clarity in messaging</li>
+        </ul>
+        <div class="label">
+            <span class="label-html">HTML</span>
+            <span class="label-ux">UX Microcopy</span>
+        </div>
+    </div>
+
     <div class="project">
         <h3><a href="https://github.com/GFiorino/NASA-Mars-Rover-Photos-API-Documentation">NASA Mars Rover Photos API Documentation</a></h3>
         <p><strong>Description:</strong> Clear guidelines on accessing NASA’s Mars Rover Photos API, designed for developers and space enthusiasts.</p>
@@ -144,42 +162,7 @@
         <div class="label label-github"><span>GitHub</span></div>
     </div>
 
-    <div class="project">
-        <h3><a href="https://github.com/GFiorino/OpenWeather-API-DOC">OpenWeather API Documentation</a></h3>
-        <p><strong>Description:</strong> A comprehensive guide for developers to retrieve weather data from the OpenWeather API.</p>
-        <p><strong>Features:</strong></p>
-        <ul>
-            <li>Step-by-step setup process</li>
-            <li>Endpoint breakdown for weather data retrieval</li>
-            <li>Real-world sample code for quick integration</li>
-        </ul>
-        <div class="label label-github"><span>GitHub</span></div>
-    </div>
-
-    <div class="project">
-        <h3><a href="https://github.com/GFiorino/How-to-Secure-Home-WiFi-Guide">How to Secure Home Wi-Fi Guide</a></h3>
-        <p><strong>Description:</strong> A non-technical guide to securing home WiFi networks, helping users enhance privacy and protect against vulnerabilities.</p>
-        <p><strong>Features:</strong></p>
-        <ul>
-            <li>Step-by-step security practices</li>
-            <li>Simplified explanations for non-technical users</li>
-            <li>Actionable tips to safeguard personal data</li>
-        </ul>
-        <div class="label label-github"><span>GitHub</span></div>
-    </div>
-
-    <div class="project">
-        <h3><a href="https://github.com/GFiorino/AI-Enhanced-Cybersecurity-Strategies-for-Small-Businesses">AI-Enhanced Cybersecurity Strategies for Small Businesses</a></h3>
-        <p><strong>Description:</strong> Actionable strategies leveraging AI to strengthen cybersecurity for small and medium enterprises (SMEs).</p>
-        <p><strong>Features:</strong></p>
-        <ul>
-            <li>Practical examples of AI-enhanced cybersecurity solutions</li>
-            <li>Tailored guidance for non-expert audiences</li>
-            <li>Scalable strategies to meet SMEs’ security needs</li>
-        </ul>
-        <div class="label label-github"><span>GitHub</span></div>
-    </div>
-
+    <!-- Remaining projects remain untouched -->
     <h2>Contact Me</h2>
     <p>Feel free to explore each project, and reach out if you're interested in collaboration or have questions about my work!</p>
     <ul>

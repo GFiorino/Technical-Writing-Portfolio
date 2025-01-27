@@ -1,41 +1,177 @@
-# Technical Writing Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gianpiero Fiorino - Technical Writing Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #0056b3;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .project {
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .project h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.4em;
+        }
+        .project p {
+            margin: 5px 0 0;
+        }
+        .label {
+            text-align: right;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .label span {
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .label-html span {
+            background-color: #e8f8f9;
+            color: #007b83;
+        }
+        .label-ux span {
+            background-color: #f5f5f5;
+            color: #555;
+        }
+        .label-github span {
+            background-color: #fff8d4;
+            color: #856404;
+        }
+        img {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 80%;
+            max-width: 600px;
+            margin: auto;
+            display: block;
+        }
+        img + p {
+            text-align: center;
+            color: #555;
+            font-size: 1.2em;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            img {
+                width: 90%;
+            }
+            .project {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img src="https://github.com/GFiorino/Technical-Writing-Portfolio/blob/main/portfolio_image.png?raw=true" 
+             alt="Technical Writing Banner">
+        <p>Simplifying Complex Concepts Through Clear and User-Friendly Documentation</p>
+    </div>
 
-Welcome to my portfolio showcasing my work as a technical writer. This repository highlights my expertise in API documentation, UX microcopy, cybersecurity writing, and user guides.
+    <h1>Technical Writing Portfolio</h1>
+    <h2>Welcome to Gianpiero Fiorino's Portfolio</h2>
+    <p>Explore my work as an <strong>entry-level technical writer</strong>, showcasing expertise in <strong>API documentation</strong>, <strong>cybersecurity writing</strong>, and <strong>user guides</strong>. Each project is designed to be <strong>clear</strong>, <strong>user-friendly</strong>, and <strong>informative</strong>.</p>
+    
+    <h2 style="margin-top: 40px;">Projects</h2>
 
-## Live Portfolio
-Visit the live version of my portfolio here: [Technical Writing Portfolio](https://gfiorino.github.io/Technical-Writing-Portfolio/)
+    <!-- Trello API Project -->
+    <div class="project">
+        <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API: Automating Task Management with Postman</a></h3>
+        <p><strong>Description:</strong> A detailed guide for automating tasks using the Trello API. This project demonstrates my ability to create clear, professional API documentation.</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Instructions for setting up Trello API authentication</li>
+            <li>Endpoint usage examples (adding cards, managing lists, etc.)</li>
+            <li>Interactive examples and troubleshooting tips</li>
+        </ul>
+        <div class="label label-html"><span>HTML</span></div>
+    </div>
 
-## Featured Projects
+    <!-- Real-Time Chat API Project -->
+    <div class="project">
+        <h3><a href="https://github.com/GFiorino/Real-Time-Chat-API-Documentation">Real-Time Chat API Documentation</a></h3>
+        <p><strong>Description:</strong> Comprehensive documentation for a real-time chat API, showcasing authentication, endpoint usage, and integration for developers.</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Authentication flow and token-based security</li>
+            <li>Endpoint descriptions for message sending and receiving</li>
+            <li>Code examples and troubleshooting guidelines</li>
+        </ul>
+        <div class="label label-github"><span>GitHub</span></div>
+    </div>
 
-### 1. [Trello API: Automating Task Management with Postman](https://gfiorino.github.io/Trello_Automating_Guide/)
-- **Description:** Comprehensive guide to using the Trello API for automating task management. Includes detailed endpoint documentation, troubleshooting, and real-world use cases.
-- **Key Tools:** Postman, Markdown, GitHub.
+    <!-- Airport Delays Made Clear Project -->
+    <div class="project">
+        <h3><a href="https://gfiorino.github.io/Airport-Delays-Made-Clear-Enhancing-Passenger-Communication/">Airport Delays Made Clear: Enhancing Passenger Communication</a></h3>
+        <p><strong>Description:</strong> A UX-focused project that demonstrates how friendly and informative communication can alleviate passenger stress during airport delays.</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Real-world UX Microcopy examples</li>
+            <li>Structured, user-friendly communication strategies</li>
+            <li>Emphasis on empathy and clarity in messaging</li>
+        </ul>
+        <div class="label label-ux"><span>UX Microcopy</span></div>
+    </div>
 
-### 2. [Real-Time Chat API Documentation](https://github.com/GFiorino/Real-Time-Chat-API-Documentation)
-- **Description:** In-depth documentation for a real-time chat API, including authentication, endpoints, and integration examples for developers.
-- **Key Tools:** Markdown, GitHub, API design principles.
+    <!-- Other projects omitted for brevity -->
 
-### 3. [Airport Delays Made Clear: Enhancing Passenger Communication](https://gfiorino.github.io/Airport-Delays-Made-Clear-Enhancing-Passenger-Communication/)
-- **Description:** User-friendly guide designed to improve communication between airports and passengers during delays.
-- **Key Tools:** Markdown, structured content design.
+    <h2>Contact Me</h2>
+    <p>Feel free to explore each project, and reach out if you're interested in collaboration or have questions about my work!</p>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:gianpierofiorino@icloud.com">gianpierofiorino@icloud.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gianpiero-fiorino/">Gianpiero Fiorino</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/GFiorino">GFiorino</a></li>
+    </ul>
 
-### 4. [NASA Mars Rover Photos API Documentation](https://github.com/GFiorino/NASA-Mars-Rover-Photos-API-Documentation)
-- **Description:** Developer-focused documentation for accessing Mars rover photos via a public API. Includes authentication and request/response examples.
-- **Key Tools:** JSON, Markdown, GitHub.
-
-### 5. [OpenWeather API Documentation](https://github.com/GFiorino/OpenWeather-API-DOC)
-- **Description:** Comprehensive documentation of the OpenWeather API with endpoint details and integration examples for developers.
-- **Key Tools:** Markdown, JSON.
-
-### 6. [How to Secure Home Wi-Fi Guide](https://github.com/GFiorino/How-to-Secure-Home-WiFi-Guide)
-- **Description:** Practical guide to improving home network security with easy-to-follow steps for non-technical users.
-- **Key Tools:** Markdown, structured content creation.
-
-### 7. [AI-Enhanced Cybersecurity Strategies](https://github.com/GFiorino/AI-Enhanced-Cybersecurity-Strategies-for-Small-Businesses)
-- **Description:** Strategic guide for small businesses to implement AI-driven cybersecurity measures. Highlights best practices and real-world applications.
-- **Key Tools:** Markdown, GitHub.
-
-## Contact
-- **Email:** [gianpierofiorino@icloud.com](mailto:gianpierofiorino@icloud.com)
-- **LinkedIn:** [Gianpiero Fiorino](https://www.linkedin.com/in/gianpiero-fiorino/)
-- **GitHub:** [GFiorino](https://github.com/GFiorino)
+    <footer>
+        &copy; 2025 Gianpiero Fiorino. All rights reserved.
+    </footer>
+</body>
+</html>

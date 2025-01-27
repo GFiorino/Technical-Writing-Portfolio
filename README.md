@@ -6,12 +6,13 @@ Welcome to my portfolio showcasing my work as a technical writer. This repositor
 Visit the live version of my portfolio here: [Technical Writing Portfolio](https://gfiorino.github.io/Technical-Writing-Portfolio/)
 
 ## Featured Projects
-- [Trello API: Automating Task Management with Postman](https://gfiorino.github.io/Trello_Automating_Guide/)
-- [Airport Delays Made Clear: Enhancing Passenger Communication](https://gfiorino.github.io/Airport-Delays-Made-Clear-Enhancing-Passenger-Communication/)
-- [NASA Mars Rover Photos API Documentation](https://github.com/GFiorino/NASA-Mars-Rover-Photos-API-Documentation)
-- [OpenWeather API Documentation](https://github.com/GFiorino/OpenWeather-API-DOC)
-- [How to Secure Home Wi-Fi Guide](https://github.com/GFiorino/How-to-Secure-Home-WiFi-Guide)
-- [AI-Enhanced Cybersecurity Strategies](https://github.com/GFiorino/AI-Enhanced-Cybersecurity-Strategies-for-Small-Businesses)
+1. [Trello API: Automating Task Management with Postman](https://gfiorino.github.io/Trello_Automating_Guide/)
+2. [Real-Time Chat API Documentation](https://github.com/GFiorino/Real-Time-Chat-API-Documentation)
+3. [Airport Delays Made Clear: Enhancing Passenger Communication](https://gfiorino.github.io/Airport-Delays-Made-Clear-Enhancing-Passenger-Communication/)
+4. [NASA Mars Rover Photos API Documentation](https://github.com/GFiorino/NASA-Mars-Rover-Photos-API-Documentation)
+5. [OpenWeather API Documentation](https://github.com/GFiorino/OpenWeather-API-DOC)
+6. [How to Secure Home Wi-Fi Guide](https://github.com/GFiorino/How-to-Secure-Home-WiFi-Guide)
+7. [AI-Enhanced Cybersecurity Strategies](https://github.com/GFiorino/AI-Enhanced-Cybersecurity-Strategies-for-Small-Businesses)
 
 ## Contact
 - **Email:** [gianpierofiorino@icloud.com](mailto:gianpierofiorino@icloud.com)

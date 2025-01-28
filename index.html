@@ -14,7 +14,7 @@
         }
         header {
             text-align: center;
-            padding: 30px 20px;
+            padding: 25px 20px;
             background: rgba(255, 255, 255, 0.9);
             backdrop-filter: blur(10px);
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -23,9 +23,9 @@
         header .header-image {
             display: block;
             margin: 0 auto;
-            margin-bottom: 15px; /* Reduced gap between image and title */
-            width: 150px;
-            height: 150px;
+            margin-bottom: 10px; /* Reduced gap between image and title */
+            width: 170px; /* Slightly increased size */
+            height: 170px;
             border-radius: 12px; /* Rounded corners for square image */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             object-fit: cover;
@@ -33,7 +33,7 @@
         header h1 {
             display: inline-block;
             margin: 0;
-            margin-bottom: 10px; /* Reduced gap between title and subtitle */
+            margin-bottom: 8px; /* Tighter spacing with subtitle */
             padding: 5px 15px;
             font-size: 2.4em;
             font-weight: bold;
@@ -43,7 +43,7 @@
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
         }
         header p {
-            margin-top: 10px;
+            margin-top: 5px; /* Reduced gap with title */
             font-size: 1.2em;
             color: #555;
         }
@@ -51,10 +51,13 @@
             max-width: 900px;
             margin: 20px auto;
             padding: 20px;
+            background: linear-gradient(to bottom, #ffffff, #f8f9fa); /* Subtle gradient */
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         h2 {
             font-size: 2em;
-            margin-top: 40px;
+            margin-top: 30px;
             text-align: center;
             color: #0056b3;
         }
@@ -63,7 +66,7 @@
             padding: 20px;
             border-radius: 12px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-            background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+            background: #ffffff;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
         .project:hover {

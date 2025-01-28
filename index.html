@@ -1,8 +1,10 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="description" content="Technical Writing Portfolio featuring user guides, API documentation, and more by Gianpiero Fiorino." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gianpiero Fiorino - Technical Writing Portfolio</title>
     <style>
         body {
@@ -35,6 +37,15 @@
         }
         a:hover {
             text-decoration: underline;
+        }
+        .intro-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .intro-section p {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #555;
         }
         .project {
             margin-bottom: 40px;
@@ -109,65 +120,112 @@
     </style>
 </head>
 <body>
-    <div style="text-align: center; margin-bottom: 20px;">
+    <!-- Banner / Personal Branding Section -->
+    <div class="intro-section">
         <img src="https://github.com/GFiorino/Technical-Writing-Portfolio/blob/main/portfolio_image.png?raw=true" 
              alt="Technical Writing Banner">
         <p>Simplifying Complex Concepts Through Clear and User-Friendly Documentation</p>
+        <p><strong>Welcome to my Technical Writing Portfolio!</strong></p>
     </div>
 
-    <h1>Technical Writing Portfolio</h1>
-    <h2>Welcome to Gianpiero Fiorino's Portfolio</h2>
-    <p>Explore my work as an <strong>entry-level technical writer</strong>, showcasing expertise in <strong>API documentation</strong>, <strong>cybersecurity writing</strong>, and <strong>user guides</strong>. Each project is designed to be <strong>clear</strong>, <strong>user-friendly</strong>, and <strong>informative</strong>.</p>
+    <h1>Gianpiero Fiorino</h1>
+
+    <p style="text-align: center;">
+        I am a <strong>Technical Writer</strong> with a passion for creating 
+        <em>concise</em>, <em>easy-to-understand</em> documentation. 
+        Through each project, I aim to bridge the gap between complex technical solutions 
+        and the everyday user, ensuring clarity and a smooth user experience.
+    </p>
+
+    <h2>Featured Projects</h2>
     
-    <h2 style="margin-top: 40px;">Projects</h2>
-
-    <!-- Trello API Project -->
+    <!-- 1. Trello API Project -->
     <div class="project">
-        <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API: Automating Task Management with Postman</a></h3>
-        <p><strong>Description:</strong> A detailed guide for automating tasks using the Trello API. This project demonstrates my ability to create clear, professional API documentation.</p>
-        <p><strong>Features:</strong></p>
+        <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/" target="_blank">
+            Trello API: Automating Task Management with Postman
+        </a></h3>
+        <p><strong>Description:</strong> A detailed guide for automating tasks using the Trello API. This project 
+        demonstrates my ability to create clear, professional API documentation.</p>
+        <p><strong>Key Highlights:</strong></p>
         <ul>
-            <li>Instructions for setting up Trello API authentication</li>
+            <li>Step-by-step instructions for setting up Trello API authentication</li>
             <li>Endpoint usage examples (adding cards, managing lists, etc.)</li>
-            <li>Interactive examples and troubleshooting tips</li>
+            <li>Postman testing workflows and troubleshooting tips</li>
         </ul>
-        <div class="label label-html"><span>HTML</span></div>
+        <p><strong>Tools Used:</strong> Trello, Postman, Markdown, Git</p>
+        <p><strong>My Role & Process:</strong> I researched Trello’s public API, wrote comprehensive endpoint 
+        documentation, and tested requests using Postman to ensure accuracy. I also collaborated with a small 
+        development team for technical validation.</p>
+        <div class="label label-html"><span>API Docs</span></div>
     </div>
 
-    <!-- Real-Time Chat API Project -->
+    <!-- 2. Real-Time Chat API Project -->
     <div class="project">
-        <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
-        <p><strong>Description:</strong> Comprehensive documentation for a real-time chat API, showcasing authentication, endpoint usage, and integration for developers.</p>
-        <p><strong>Features:</strong></p>
+        <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/" target="_blank">
+            Real-Time Chat API Documentation
+        </a></h3>
+        <p><strong>Description:</strong> Comprehensive documentation for a real-time chat API, outlining 
+        authentication, endpoint usage, and integration steps for developers.</p>
+        <p><strong>Key Highlights:</strong></p>
         <ul>
-            <li>Authentication flow and token-based security</li>
-            <li>Endpoint descriptions for message sending and receiving</li>
-            <li>Code examples and troubleshooting guidelines</li>
+            <li>Authentication flow (token-based security) and best practices</li>
+            <li>Endpoint definitions for message sending and fetching</li>
+            <li>Sample code snippets in various programming languages</li>
         </ul>
-        <div class="label label-html"><span>HTML</span></div>
+        <p><strong>Tools Used:</strong> Git, Markdown, REST Client, HTML</p>
+        <p><strong>My Role & Process:</strong> I collaborated with subject matter experts to gather requirements 
+        and clarify expected responses. I organized the documentation structure, ensuring it is easy to navigate 
+        and updated regularly.</p>
+        <div class="label label-html"><span>API Docs</span></div>
     </div>
 
-    <!-- Airport Delays Made Clear Project -->
+    <!-- 3. Airport Delays Made Clear Project -->
     <div class="project">
-        <h3><a href="https://gfiorino.github.io/Airport-Delays-Made-Clear-Enhancing-Passenger-Communication/">Airport Delays Made Clear: Enhancing Passenger Communication</a></h3>
-        <p><strong>Description:</strong> A UX-focused project that demonstrates how friendly and informative communication can alleviate passenger stress during airport delays.</p>
-        <p><strong>Features:</strong></p>
+        <h3><a href="https://gfiorino.github.io/Airport-Delays-Made-Clear-Enhancing-Passenger-Communication/" target="_blank">
+            Airport Delays Made Clear: Enhancing Passenger Communication
+        </a></h3>
+        <p><strong>Description:</strong> A UX-focused writing project that explores how 
+        clear, empathetic messaging can reduce passenger stress during flight delays.</p>
+        <p><strong>Key Highlights:</strong></p>
         <ul>
-            <li>Real-world UX Microcopy examples</li>
+            <li>Real-world UX microcopy examples for consistent messaging</li>
             <li>Structured, user-friendly communication strategies</li>
-            <li>Emphasis on empathy and clarity in messaging</li>
+            <li>Emphasis on empathy and transparency to improve customer experience</li>
         </ul>
+        <p><strong>Tools Used:</strong> UX Research, Technical Writing, GitHub Pages</p>
+        <p><strong>My Role & Process:</strong> I identified common communication gaps, drafted 
+        microcopy for updates and alerts, and structured the documentation to be scannable 
+        and direct. I also interviewed airline ground staff for insights on pain points.</p>
         <div class="label label-ux"><span>UX Microcopy</span></div>
     </div>
 
-    <!-- Other projects omitted for brevity -->
+    <!-- 4. Additional Project: Data Privacy & GDPR Documentation -->
+    <div class="project">
+        <h3><a href="https://gfiorino.github.io/Data-Privacy-GDPR-Documentation" target="_blank">
+            Data Privacy & GDPR Documentation
+        </a></h3>
+        <p><strong>Description:</strong> A thorough overview of GDPR compliance measures, focusing on 
+        user data protection, legal requirements, and organizational best practices.</p>
+        <p><strong>Key Highlights:</strong></p>
+        <ul>
+            <li>Clear breakdown of GDPR principles and obligations</li>
+            <li>Guidelines for consent management and data handling</li>
+            <li>Policy templates for internal documentation and external communication</li>
+        </ul>
+        <p><strong>Tools Used:</strong> Markdown, GitHub Pages, Legal Research</p>
+        <p><strong>My Role & Process:</strong> I reviewed EU regulations, interviewed privacy officers, 
+        and compiled user-friendly policy guidelines. The goal was to help organizations quickly adapt 
+        processes and communicate transparently with end users.</p>
+        <div class="label label-github"><span>Compliance Docs</span></div>
+    </div>
 
     <h2>Contact Me</h2>
-    <p>Feel free to explore each project, and reach out if you're interested in collaboration or have questions about my work!</p>
+    <p>If you're interested in learning more about my work, have any questions, 
+       or would like to collaborate on future projects, feel free to reach out.</p>
     <ul>
         <li><strong>Email:</strong> <a href="mailto:gianpierofiorino@icloud.com">gianpierofiorino@icloud.com</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gianpiero-fiorino/">Gianpiero Fiorino</a></li>
-        <li><strong>GitHub:</strong> <a href="https://github.com/GFiorino">GFiorino</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gianpiero-fiorino/" target="_blank">Gianpiero Fiorino</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/GFiorino" target="_blank">GFiorino</a></li>
     </ul>
 
     <footer>

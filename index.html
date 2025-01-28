@@ -6,172 +6,169 @@
     <title>Gianpiero Fiorino - Technical Writing Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #e3f2fd, #ffffff);
             color: #333;
         }
-        h1 {
-            color: #0056b3;
+        header {
             text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 20px;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-            border-bottom: 2px solid #0056b3;
-            padding-bottom: 10px;
+            padding: 20px;
+            background: linear-gradient(to right, #0056b3, #007acc);
+            color: white;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
         }
         h2 {
-            color: #333;
-            font-size: 1.8em;
+            font-size: 2em;
             margin-top: 40px;
-            margin-bottom: 30px;
+            text-align: center;
+            color: #0056b3;
+        }
+        .project {
+            margin: 30px 0;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        .project h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.6em;
+            color: #0056b3;
+        }
+        .project p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        .project ul {
+            margin: 10px 0 0 20px;
+        }
+        .tools {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .tools span {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            background: #e3f2fd;
+            color: #0056b3;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-top: 2px solid #ddd;
+            font-size: 0.9em;
         }
         a {
-            color: #007acc;
             text-decoration: none;
+            color: #0056b3;
         }
         a:hover {
             text-decoration: underline;
         }
-        .project {
-            margin-bottom: 40px;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            background-color: #fff;
-        }
-        .project h3 {
-            margin: 0 0 10px 0;
-            font-size: 1.4em;
-        }
-        .project p {
-            margin: 5px 0 0;
-        }
-        .label {
-            text-align: right;
-            font-size: 0.9em;
-            margin-top: 10px;
-        }
-        .label span {
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-weight: bold;
-        }
-        .label-html span {
-            background-color: #e8f8f9;
-            color: #007b83;
-        }
-        .label-ux span {
-            background-color: #f5f5f5;
-            color: #555;
-        }
-        .label-github span {
-            background-color: #fff8d4;
-            color: #856404;
-        }
-        img {
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            width: 80%;
-            max-width: 600px;
-            margin: auto;
-            display: block;
-        }
-        img + p {
-            text-align: center;
-            color: #555;
-            font-size: 1.2em;
-            margin-top: 10px;
-            margin-bottom: 30px;
-        }
-        footer {
-            margin-top: 50px;
-            font-size: 0.9em;
-            text-align: center;
-            color: #666;
-            border-top: 1px solid #ddd;
-            padding-top: 15px;
-        }
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
-            }
-            img {
-                width: 90%;
-            }
-            .project {
-                padding: 15px;
-            }
-        }
     </style>
 </head>
 <body>
-    <div style="text-align: center; margin-bottom: 20px;">
-        <img src="https://github.com/GFiorino/Technical-Writing-Portfolio/blob/main/portfolio_image.png?raw=true" 
-             alt="Technical Writing Banner">
+    <header>
+        <h1>Gianpiero Fiorino</h1>
         <p>Simplifying Complex Concepts Through Clear and User-Friendly Documentation</p>
-    </div>
-
-    <h1>Technical Writing Portfolio</h1>
-    <h2>Welcome to Gianpiero Fiorino's Portfolio</h2>
-    <p>Explore my work as an <strong>entry-level technical writer</strong>, showcasing expertise in <strong>API documentation</strong>, <strong>cybersecurity writing</strong>, and <strong>user guides</strong>. Each project is designed to be <strong>clear</strong>, <strong>user-friendly</strong>, and <strong>informative</strong>.</p>
-    
-    <h2 style="margin-top: 40px;">Projects</h2>
-
-    <!-- Trello API Project -->
-    <div class="project">
-        <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API: Automating Task Management with Postman</a></h3>
-        <p><strong>Description:</strong> A detailed guide for automating tasks using the Trello API. This project demonstrates my ability to create clear, professional API documentation.</p>
-        <p><strong>Features:</strong></p>
-        <ul>
-            <li>Instructions for setting up Trello API authentication</li>
-            <li>Endpoint usage examples (adding cards, managing lists, etc.)</li>
-            <li>Interactive examples and troubleshooting tips</li>
-        </ul>
-        <div class="label label-html"><span>HTML</span></div>
-    </div>
-
-    <!-- Real-Time Chat API Project -->
-    <div class="project">
-        <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
-        <p><strong>Description:</strong> Comprehensive documentation for a real-time chat API, showcasing authentication, endpoint usage, and integration for developers.</p>
-        <p><strong>Features:</strong></p>
-        <ul>
-            <li>Authentication flow and token-based security</li>
-            <li>Endpoint descriptions for message sending and receiving</li>
-            <li>Code examples and troubleshooting guidelines</li>
-        </ul>
-        <div class="label label-html"><span>HTML</span></div>
-    </div>
-
-    <!-- Airport Delays Made Clear Project -->
-    <div class="project">
-        <h3><a href="https://gfiorino.github.io/Airport-Delays-Made-Clear-Enhancing-Passenger-Communication/">Airport Delays Made Clear: Enhancing Passenger Communication</a></h3>
-        <p><strong>Description:</strong> A UX-focused project that demonstrates how friendly and informative communication can alleviate passenger stress during airport delays.</p>
-        <p><strong>Features:</strong></p>
-        <ul>
-            <li>Real-world UX Microcopy examples</li>
-            <li>Structured, user-friendly communication strategies</li>
-            <li>Emphasis on empathy and clarity in messaging</li>
-        </ul>
-        <div class="label label-ux"><span>UX Microcopy</span></div>
-    </div>
-
-    <!-- Other projects omitted for brevity -->
-
-    <h2>Contact Me</h2>
-    <p>Feel free to explore each project, and reach out if you're interested in collaboration or have questions about my work!</p>
-    <ul>
-        <li><strong>Email:</strong> <a href="mailto:gianpierofiorino@icloud.com">gianpierofiorino@icloud.com</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gianpiero-fiorino/">Gianpiero Fiorino</a></li>
-        <li><strong>GitHub:</strong> <a href="https://github.com/GFiorino">GFiorino</a></li>
-    </ul>
-
+    </header>
+    <main>
+        <h2>Technical Writing Portfolio</h2>
+        <p>Explore my work as an <strong>entry-level technical writer</strong>, showcasing expertise in <strong>API documentation</strong>, <strong>cybersecurity writing</strong>, and <strong>user guides</strong>. Each project is designed to be <strong>clear</strong>, <strong>user-friendly</strong>, and <strong>informative</strong>.</p>
+        
+        <!-- Project Cards -->
+        <div class="project">
+            <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API: Automating Task Management</a></h3>
+            <p>A detailed guide for automating workflows with Trello API. This project demonstrates proficiency in API documentation and troubleshooting.</p>
+            <ul>
+                <li>Authentication setup instructions</li>
+                <li>Endpoint usage examples (adding cards, managing lists)</li>
+                <li>Interactive examples and troubleshooting tips</li>
+            </ul>
+            <div class="tools">
+                <span>Postman</span> <span>JSON</span> <span>GitHub</span>
+            </div>
+        </div>
+        
+        <div class="project">
+            <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
+            <p>Comprehensive documentation for a real-time chat API, featuring token-based security and detailed endpoint integration for developers.</p>
+            <ul>
+                <li>Authentication flow with tokens</li>
+                <li>Endpoint descriptions for messaging</li>
+                <li>Code samples and troubleshooting guides</li>
+            </ul>
+            <div class="tools">
+                <span>Postman</span> <span>Markdown</span> <span>GitHub</span>
+            </div>
+        </div>
+        
+        <div class="project">
+            <h3><a href="https://github.com/GFiorino/OpenWeather-API">OpenWeather API Documentation</a></h3>
+            <p>Developer-friendly documentation for the OpenWeather API, including request/response examples and integration guidelines.</p>
+            <ul>
+                <li>Token-based authentication</li>
+                <li>Endpoint details for weather data</li>
+                <li>Request and response examples</li>
+            </ul>
+            <div class="tools">
+                <span>Postman</span> <span>JSON</span> <span>GitHub</span>
+            </div>
+        </div>
+        
+        <div class="project">
+            <h3><a href="https://github.com/GFiorino/Secure-WiFi-Guide">Secure WiFi Guide</a></h3>
+            <p>A practical guide for securing home Wi-Fi networks, tailored for non-technical users with actionable and easy-to-follow instructions.</p>
+            <ul>
+                <li>Simple and effective security steps</li>
+                <li>Clear guidance for non-technical users</li>
+            </ul>
+            <div class="tools">
+                <span>Markdown</span> <span>GitHub</span>
+            </div>
+        </div>
+        
+        <div class="project">
+            <h3><a href="https://gfiorino.github.io/Airport-Delays-Made-Clear-Enhancing-Passenger-Communication/">Airport Delays: Enhancing Passenger Communication</a></h3>
+            <p>A UX-focused project demonstrating how effective microcopy can alleviate stress for passengers during airport delays.</p>
+            <ul>
+                <li>Empathetic communication examples</li>
+                <li>User-friendly messaging strategies</li>
+                <li>Real-world UX microcopy scenarios</li>
+            </ul>
+            <div class="tools">
+                <span>UX Writing</span> <span>GitHub</span>
+            </div>
+        </div>
+    </main>
     <footer>
-        &copy; 2025 Gianpiero Fiorino. All rights reserved.
+        &copy; 2025 Gianpiero Fiorino | <a href="mailto:gianpierofiorino@icloud.com">Email</a> | <a href="https://www.linkedin.com/in/gianpiero-fiorino/">LinkedIn</a> | <a href="https://github.com/GFiorino">GitHub</a>
     </footer>
 </body>
 </html>

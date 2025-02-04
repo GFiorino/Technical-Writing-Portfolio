@@ -15,35 +15,32 @@
         header {
             text-align: center;
             padding: 50px 20px 30px;
-            background: #E9F5E9; /* Lighter green background */
+            background: #E9F5E9;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            border-bottom: 2px solid #CDE6CD; /* Subtle border for separation */
+            border-bottom: 2px solid #CDE6CD;
         }
         header .header-image {
             display: block;
             margin: 0 auto 25px;
-            width: 200px;
-            height: 200px;
-            border-radius: 12px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             object-fit: cover;
         }
         header h1 {
-            display: inline-block;
             margin: 0;
-            margin-bottom: 20px;
-            padding: 5px 15px;
+            margin-bottom: 10px;
             font-size: 2.4em;
             font-weight: bold;
-            background: #E9F5E9; /* Match header background */
-            color: #2E7D32; /* Darker green for text */
-            border-radius: 8px;
+            color: #2E7D32;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
         }
         header p {
             margin: 0;
             font-size: 1.2em;
-            color: #555; /* Neutral color for the subtitle */        }
+            color: #555;
+        }
         main {
             max-width: 900px;
             margin: 20px auto;
@@ -55,15 +52,15 @@
         h2 {
             font-size: 2em;
             margin-top: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             text-align: center;
             color: #0056b3;
         }
         p.portfolio-description {
-            margin: 10px 0 30px; /* Adjusted bottom margin for tighter spacing */
             text-align: center;
-            font-size: 1em;
-            color: #333;
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 40px;
         }
         .project {
             margin: 30px 0;
@@ -80,16 +77,15 @@
         .project h3 {
             margin: 0 0 10px 0;
             font-size: 1.6em;
-            color: #4DA8F0; /* Distinct lighter blue */
+            color: #4DA8F0;
             font-weight: bold;
-            transition: color 0.3s ease; /* Add interactivity */
         }
         .project h3 a {
             text-decoration: none;
-            color: #4DA8F0; /* Inherit lighter blue */
+            color: #4DA8F0;
         }
         .project h3 a:hover {
-            color: #1d7ecf; /* Slightly darker blue on hover */
+            color: #1d7ecf;
         }
         .project p {
             margin: 10px 0;
@@ -114,49 +110,18 @@
         }
         footer {
             text-align: center;
-            padding: 20px 0; /* Ensured consistent padding */
+            padding: 20px;
             background: #f8f9fa;
             border-top: 2px solid #ddd;
             font-size: 0.9em;
         }
-        a {
+        footer a {
             text-decoration: none;
             color: #0056b3;
         }
-        a:hover {
+        footer a:hover {
             text-decoration: underline;
         }
-
-    h2 {
-        font-size: 2em;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        text-align: center;
-        color:#0056b3/* Lighter blue for the section title */
-    }
-    .project h3 {
-        margin: 0 0 10px 0;
-        font-size: 1.6em;
-        color: #0056b3; /* Darker blue for card titles */
-        font-weight: bold;
-        transition: color 0.3s ease; /* Add interactivity */
-    }
-    .project h3 a {
-        text-decoration: none;
-        color: #0056b3; /* Inherit darker blue */
-    }
-    .project h3 a:hover {
-        color: #003d82; /* Slightly darker on hover */
-    }
-
-    /* Adjusted paragraph color and spacing */
-    p.portfolio-description {
-        margin: 10px 0 40px; /* Added more vertical space below the paragraph */
-        text-align: center;
-        font-size: 1em;
-        color: #555; /* Matches subtitle color under "Gianpiero Fiorino" */
-    }
-
     </style>
 </head>
 <body>
@@ -168,74 +133,52 @@
     </header>
     <main>
         <h2>Technical Writing Portfolio</h2>
-      <p class="portfolio-description" style="margin-bottom: 45px;">Explore my work as an <strong>entry-level technical writer</strong>, showcasing expertise in <strong>API documentation</strong>, <strong>cybersecurity writing</strong>, and <strong>user guides</strong>. Each project is designed to be <strong>clear</strong>, <strong>user-friendly</strong>, and <strong>informative</strong>.</p>
-        <!-- Project Cards -->
+        <p class="portfolio-description">Explore my work as an <strong>entry-level technical writer</strong>, showcasing expertise in <strong>API documentation</strong>, <strong>cybersecurity writing</strong>, and <strong>user guides</strong>.</p>
+
+        <!-- Binance API Dashboard Project -->
+        <div class="project">
+            <h3><a href="https://gfiorino.github.io/Binance-API-Dashboard/">Binance API Dashboard</a></h3>
+            <p>A fully interactive dashboard that tracks live cryptocurrency trends using the Binance API. Features real-time price updates, historical trend analysis, and a simulated trading tool.</p>
+            <ul>
+                <li>Live cryptocurrency price tracking</li>
+                <li>Timeframe selection for historical data</li>
+                <li>Simulated buy currency tool</li>
+            </ul>
+            <div class="tools">
+                <span>JavaScript</span> <span>Chart.js</span> <span>GitHub Pages</span>
+            </div>
+        </div>
+
+        <!-- Other Portfolio Projects -->
         <div class="project">
             <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API: Automating Task Management</a></h3>
-            <p>A detailed guide for automating workflows with Trello API. This project demonstrates proficiency in API documentation and troubleshooting.</p>
-            <ul>
-                <li>Authentication setup instructions</li>
-                <li>Endpoint usage examples (adding cards, managing lists)</li>
-                <li>Interactive examples and troubleshooting tips</li>
-            </ul>
+            <p>A guide for automating workflows with Trello API, covering authentication setup, endpoint usage, and troubleshooting tips.</p>
             <div class="tools">
                 <span>Postman</span> <span>JSON</span> <span>GitHub</span>
             </div>
         </div>
-        
-        <div class="project">
-            <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
-            <p>Comprehensive documentation for a real-time chat API, featuring token-based security and detailed endpoint integration for developers.</p>
-            <ul>
-                <li>Authentication flow with tokens</li>
-                <li>Endpoint descriptions for messaging</li>
-                <li>Code samples and troubleshooting guides</li>
-            </ul>
-            <div class="tools">
-                <span>Postman</span> <span>Markdown</span> <span>GitHub</span>
-            </div>
-        </div>
-        
+
         <div class="project">
             <h3><a href="https://github.com/GFiorino/OpenWeather-API-DOC">OpenWeather API Documentation</a></h3>
-            <p>Developer-friendly documentation for the OpenWeather API, including request/response examples and integration guidelines.</p>
-            <ul>
-                <li>Token-based authentication</li>
-                <li>Endpoint details for weather data</li>
-                <li>Request and response examples</li>
-            </ul>
+            <p>Comprehensive developer documentation for the OpenWeather API, including token-based authentication and endpoint descriptions.</p>
             <div class="tools">
                 <span>Postman</span> <span>JSON</span> <span>GitHub</span>
             </div>
         </div>
-        
+
         <div class="project">
             <h3><a href="https://github.com/GFiorino/Secure-WiFi-Guide">Secure WiFi Guide</a></h3>
-            <p>A practical guide for securing home Wi-Fi networks, tailored for non-technical users with actionable and easy-to-follow instructions.</p>
-            <ul>
-                <li>Simple and effective security steps</li>
-                <li>Clear guidance for non-technical users</li>
-            </ul>
+            <p>A step-by-step guide for securing home Wi-Fi networks with practical security tips.</p>
             <div class="tools">
                 <span>Markdown</span> <span>GitHub</span>
             </div>
         </div>
         
-        <div class="project">
-            <h3><a href="https://gfiorino.github.io/Airport-Delays-Made-Clear-Enhancing-Passenger-Communication/">Airport Delays: Enhancing Passenger Communication</a></h3>
-            <p>A UX-focused project demonstrating how effective microcopy can alleviate stress for passengers during airport delays.</p>
-            <ul>
-                <li>Empathetic communication examples</li>
-                <li>User-friendly messaging strategies</li>
-                <li>Real-world UX microcopy scenarios</li>
-            </ul>
-            <div class="tools">
-                <span>UX Writing</span> <span>GitHub</span>
-            </div>
-        </div>
     </main>
     <footer>
-        &copy; 2025 Gianpiero Fiorino | <a href="mailto:gianpierofiorino@icloud.com">Email</a> | <a href="https://www.linkedin.com/in/gianpiero-fiorino/">LinkedIn</a> | <a href="https://github.com/GFiorino">GitHub</a>
+        &copy; 2025 Gianpiero Fiorino | <a href="mailto:gianpierofiorino@icloud.com">Email</a> | 
+        <a href="https://www.linkedin.com/in/gianpiero-fiorino/">LinkedIn</a> | 
+        <a href="https://github.com/GFiorino">GitHub</a>
     </footer>
 </body>
 </html>

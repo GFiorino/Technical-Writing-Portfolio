@@ -5,43 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gianpiero Fiorino - Technical Writing Portfolio</title>
     <style>
+        /* Global Styles */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Inter', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to bottom, #f3f7fd, #ffffff);
+            background: #F9FAFB;
             color: #333;
         }
-        /* Modern Minimalistic Header */
+
+        /* Header */
         header {
             text-align: center;
-            padding: 50px 20px 30px;
-            background: #121212; /* Dark modern theme */
+            padding: 40px 20px 30px;
+            background: #121212;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             border-bottom: 2px solid #292929;
         }
-        header .header-image {
-            display: block;
-            margin: 0 auto 25px;
-            width: 160px;
-            height: 160px;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            object-fit: cover;
-        }
+
         header h1 {
             margin: 0;
-            margin-bottom: 10px;
             font-size: 2.4em;
             font-weight: bold;
-            color: #F3BA2F; /* Binance Gold */
+            color: #F3BA2F;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
         }
+
         header p {
-            margin: 0;
+            margin-top: 5px;
             font-size: 1.2em;
             color: #bbb;
         }
+
         main {
             max-width: 900px;
             margin: 20px auto;
@@ -50,19 +45,8 @@
             border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        h2 {
-            font-size: 2em;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            text-align: center;
-            color: #0056b3;
-        }
-        p.portfolio-description {
-            text-align: center;
-            font-size: 1.2em;
-            color: #555;
-            margin-bottom: 40px;
-        }
+
+        /* Project Cards */
         .project {
             margin: 30px 0;
             padding: 20px;
@@ -70,42 +54,51 @@
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
             background: #ffffff;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border-left: 6px solid transparent; /* Color-coded left border */
         }
+
         .project:hover {
             transform: translateY(-5px);
             box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
         }
+
+        /* Project Titles */
         .project h3 {
             margin: 0 0 10px 0;
             font-size: 1.6em;
-            color: #4DA8F0;
             font-weight: bold;
         }
-        .project h3 a {
+
+        .project a {
             text-decoration: none;
-            color: #4DA8F0;
         }
-        .project h3 a:hover {
-            color: #1d7ecf;
-        }
+
         .project p {
             margin: 10px 0;
             line-height: 1.5;
         }
+
         .tools {
             margin-top: 15px;
             font-size: 0.9em;
             color: #555;
         }
+
         .tools span {
             display: inline-block;
             margin: 5px;
             padding: 5px 10px;
             border-radius: 4px;
-            background: #e3f2fd;
-            color: #0056b3;
             font-weight: bold;
         }
+
+        /* Color-Coded Cards */
+        .binance { border-left-color: #F3BA2F; } /* Binance Yellow */
+        .trello { border-left-color: #0079BF; }  /* Trello Blue */
+        .chatapi { border-left-color: #4DA8F0; } /* Chat API Blue */
+        .wifi { border-left-color: #28A745; }    /* Secure Wi-Fi Green */
+
+        /* Footer */
         footer {
             text-align: center;
             padding: 20px;
@@ -114,10 +107,12 @@
             border-top: 2px solid #292929;
             font-size: 0.9em;
         }
+
         footer a {
             text-decoration: none;
             color: #F3BA2F;
         }
+
         footer a:hover {
             text-decoration: underline;
         }
@@ -125,40 +120,34 @@
 </head>
 <body>
     <header>
-        <img src="https://github.com/GFiorino/Technical-Writing-Portfolio/blob/main/portfolio_image.png?raw=true" 
-             alt="Profile Picture" class="header-image">
         <h1>Gianpiero Fiorino</h1>
-        <p>Simplifying Complex Concepts Through Clear and User-Friendly Documentation</p>
+        <p>Technical Writer | API Documentation | Cybersecurity</p>
     </header>
+
     <main>
         <h2>Technical Writing Portfolio</h2>
-        <p class="portfolio-description">Explore my work as an <strong>entry-level technical writer</strong>, showcasing expertise in <strong>API documentation</strong>, <strong>cybersecurity writing</strong>, and <strong>user guides</strong>.</p>
+        <p class="portfolio-description">Explore my work in <strong>API documentation</strong>, <strong>cybersecurity writing</strong>, and <strong>technical guides</strong>.</p>
 
-        <!-- Binance API Dashboard Project -->
-        <div class="project">
+        <!-- Binance API Dashboard -->
+        <div class="project binance">
             <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard</a></h3>
-            <p>An interactive dashboard tracking live cryptocurrency trends using Binance API. Includes real-time price updates, historical trends, and a simulated trading tool.</p>
-            <ul>
-                <li>Live cryptocurrency price tracking</li>
-                <li>Timeframe selection for historical data</li>
-                <li>Simulated buy currency tool</li>
-            </ul>
+            <p>A cryptocurrency dashboard tracking real-time price trends using Binance API. Features live price updates, historical trend analysis, and a simulated trade tool.</p>
             <div class="tools">
                 <span>JavaScript</span> <span>Chart.js</span> <span>GitHub Pages</span>
             </div>
         </div>
 
         <!-- Trello API Project -->
-        <div class="project">
+        <div class="project trello">
             <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API: Automating Task Management</a></h3>
-            <p>A guide for automating workflows with Trello API, covering authentication setup, endpoint usage, and troubleshooting tips.</p>
+            <p>A detailed guide for automating workflows with Trello API, covering authentication setup, endpoint usage, and troubleshooting.</p>
             <div class="tools">
                 <span>Postman</span> <span>JSON</span> <span>GitHub</span>
             </div>
         </div>
 
         <!-- Real-Time Chat API -->
-        <div class="project">
+        <div class="project chatapi">
             <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
             <p>Comprehensive documentation for a real-time chat API, featuring token-based security and detailed endpoint integration for developers.</p>
             <div class="tools">
@@ -167,15 +156,16 @@
         </div>
 
         <!-- Secure Wi-Fi Guide -->
-        <div class="project">
+        <div class="project wifi">
             <h3><a href="https://github.com/GFiorino/Secure-WiFi-Guide">Secure WiFi Guide</a></h3>
-            <p>A step-by-step guide for securing home Wi-Fi networks with practical security tips.</p>
+            <p>A practical guide for securing home Wi-Fi networks with easy-to-follow security measures.</p>
             <div class="tools">
                 <span>Markdown</span> <span>GitHub</span>
             </div>
         </div>
         
     </main>
+
     <footer>
         &copy; 2025 Gianpiero Fiorino | <a href="mailto:gianpierofiorino@icloud.com">Email</a> | 
         <a href="https://www.linkedin.com/in/gianpiero-fiorino/">LinkedIn</a> | 

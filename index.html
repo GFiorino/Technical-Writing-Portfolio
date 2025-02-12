@@ -12,6 +12,7 @@
             padding: 0;
             background: #F9FAFB;
             color: #333;
+            text-align: center;
         }
 
         /* Header */
@@ -48,16 +49,22 @@
 
         /* Intro Section */
         .intro-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 20px;
+            text-align: center;
             margin-bottom: 30px;
         }
 
+        .intro-image img {
+            max-width: 70%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto;
+        }
+
         .intro-text {
-            flex: 1;
-            max-width: 55%;
+            max-width: 80%;
+            margin: 20px auto;
+            text-align: center;
         }
 
         .intro-text h2 {
@@ -68,18 +75,6 @@
             line-height: 1.6;
         }
 
-        .intro-image {
-            flex: 1;
-            text-align: right;
-        }
-
-        .intro-image img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            /* Removed box-shadow to make the image flat */
-        }
-
         /* Project Cards */
         .project {
             margin: 30px 0;
@@ -88,7 +83,8 @@
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
             background: #ffffff;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
-            border-left: 6px solid transparent; /* Color-coded left border */
+            border-left: 6px solid transparent;
+            text-align: left;
         }
 
         .project:hover {
@@ -126,13 +122,6 @@
             font-weight: bold;
         }
 
-        /* Color-Coded Cards */
-        .binance { border-left-color: #F3BA2F; } /* Binance Yellow */
-        .trello { border-left-color: #0079BF; }  /* Trello Blue */
-        .chatapi { border-left-color: #4DA8F0; } /* Chat API Blue */
-        .wifi { border-left-color: #28A745; }    /* Secure Wi-Fi Green */
-        .dita { border-left-color: #FF5733; } /* Corporate Documentation Orange */
-
         /* Footer */
         footer {
             text-align: center;
@@ -161,6 +150,9 @@
 
     <main>
         <div class="intro-container">
+            <div class="intro-image">
+                <img src="technical-writing-skills.jpg" alt="Technical Writing Principles - Airplane Diagram">
+            </div>
             <div class="intro-text">
                 <h2>Technical Writing Portfolio</h2>
                 <p>
@@ -168,9 +160,6 @@
                     Today, my focus is exactly that: transforming complexity into clarity. Explore my work in <strong>API documentation</strong>, 
                     <strong>cybersecurity writing</strong>, and <strong>technical guides</strong>.
                 </p>
-            </div>
-            <div class="intro-image">
-                <img src="technical-writing-skills.jpg" alt="Technical Writing Principles - Airplane Diagram">
             </div>
         </div>
 
@@ -202,6 +191,7 @@
             <div class="tools">
                 <span>Confluence</span> <span>DITA</span> <span>Oxygen XML</span> <span>GitHub</span>
             </div>
+<a href="mailto:gianpierofiorino@icloud.com" class="cta-button">Contact Me</a>
         </div>
 
     </main>

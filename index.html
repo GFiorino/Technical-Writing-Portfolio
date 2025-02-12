@@ -38,12 +38,46 @@
         }
 
         main {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 20px auto;
             padding: 20px;
             background: #ffffff;
             border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Intro Section */
+        .intro-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .intro-text {
+            flex: 1;
+            max-width: 55%;
+        }
+
+        .intro-text h2 {
+            margin-bottom: 10px;
+        }
+
+        .intro-text p {
+            line-height: 1.6;
+        }
+
+        .intro-image {
+            flex: 1;
+            text-align: right;
+        }
+
+        .intro-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         /* Project Cards */
@@ -97,7 +131,7 @@
         .trello { border-left-color: #0079BF; }  /* Trello Blue */
         .chatapi { border-left-color: #4DA8F0; } /* Chat API Blue */
         .wifi { border-left-color: #28A745; }    /* Secure Wi-Fi Green */
-        .dita { border-left-color: #FF5733; } /* Orange for Corporate Documentation */
+        .dita { border-left-color: #FF5733; } /* Corporate Documentation Orange */
 
         /* Footer */
         footer {
@@ -126,59 +160,50 @@
     </header>
 
     <main>
-       <h2>Technical Writing Portfolio</h2>
-<p class="portfolio-description">
-    During my years in aviation, I was always fascinated by manuals and checklists—the ability to distill complex procedures into clear, concise instructions. Today, my focus is exactly that: transforming complexity into clarity. Explore my work in <strong>API documentation</strong>, <strong>cybersecurity writing</strong>, and <strong>technical guides</strong>.
-</p>
-
-      <!-- Binance API Dashboard -->
-<div class="project binance">
-    <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard</a></h3>
-    <p>I built a cryptocurrency dashboard that connects to the Binance API, providing real-time price updates and historical trend analysis. 
-    This project includes documentation on how to interact with both public and private API endpoints.</p>
-    <div class="tools">
-        <span>JavaScript</span> <span>Chart.js</span> <span>GitHub Pages</span>
-    </div>
-</div>
-
-<!-- Real-Time Chat API Documentation -->
-<div class="project chatapi">
-    <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
-    <p>I created this documentation for a real-time chat API, covering token-based security, authentication, and endpoint integration. 
-    This project is structured to help developers quickly integrate chat functionality into their applications.</p>
-    <div class="tools">
-        <span>Postman</span> <span>Markdown</span> <span>GitHub</span>
-    </div>
-</div>
-
-<!-- Corporate Documentation with Confluence & DITA -->
-<div class="project dita">
-    <h3><a href="https://github.com/GFiorino/Corporate-Documentation-Confluence-DITA">Corporate Documentation with Confluence & DITA</a></h3>
-    <p>This project showcases best practices in corporate documentation using Confluence and DITA in Oxygen XML. 
-    It simulates real-world documentation workflows, providing structured guidelines and annotated examples.</p>
-    <div class="tools">
-        <span>Confluence</span> <span>DITA</span> <span>Oxygen XML</span> <span>GitHub</span>
-    </div>
-</div>
-        
-        <!-- Trello API Project -->
-        <div class="project trello">
-            <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API: Automating Task Management</a></h3>
-            <p>A detailed guide for automating workflows with Trello API, covering authentication setup, endpoint usage, and troubleshooting.</p>
-            <div class="tools">
-                <span>Postman</span> <span>JSON</span> <span>GitHub</span>
+        <div class="intro-container">
+            <div class="intro-text">
+                <h2>Technical Writing Portfolio</h2>
+                <p>
+                    During my years in aviation, I was always fascinated by manuals and checklists—the ability to distill complex procedures into clear, concise instructions. 
+                    Today, my focus is exactly that: transforming complexity into clarity. Explore my work in <strong>API documentation</strong>, 
+                    <strong>cybersecurity writing</strong>, and <strong>technical guides</strong>.
+                </p>
+            </div>
+            <div class="intro-image">
+                <img src="Airplane.jpg" alt="Technical Writing Principles - Airplane Diagram">
             </div>
         </div>
 
-         <!-- Secure Wi-Fi Guide -->
-        <div class="project wifi">
-            <h3><a href="https://github.com/GFiorino/Secure-WiFi-Guide">Secure WiFi Guide</a></h3>
-            <p>A practical guide for securing home Wi-Fi networks with easy-to-follow security measures.</p>
+        <!-- Binance API Dashboard -->
+        <div class="project binance">
+            <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard</a></h3>
+            <p>I built a cryptocurrency dashboard that connects to the Binance API, providing real-time price updates and historical trend analysis. 
+            This project includes documentation on how to interact with both public and private API endpoints.</p>
             <div class="tools">
-                <span>Markdown</span> <span>GitHub</span>
+                <span>JavaScript</span> <span>Chart.js</span> <span>GitHub Pages</span>
             </div>
         </div>
-        
+
+        <!-- Real-Time Chat API Documentation -->
+        <div class="project chatapi">
+            <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
+            <p>I created this documentation for a real-time chat API, covering token-based security, authentication, and endpoint integration. 
+            This project is structured to help developers quickly integrate chat functionality into their applications.</p>
+            <div class="tools">
+                <span>Postman</span> <span>Markdown</span> <span>GitHub</span>
+            </div>
+        </div>
+
+        <!-- Corporate Documentation with Confluence & DITA -->
+        <div class="project dita">
+            <h3><a href="https://github.com/GFiorino/Corporate-Documentation-Confluence-DITA">Corporate Documentation with Confluence & DITA</a></h3>
+            <p>This project showcases best practices in corporate documentation using Confluence and DITA in Oxygen XML. 
+            It simulates real-world documentation workflows, providing structured guidelines and annotated examples.</p>
+            <div class="tools">
+                <span>Confluence</span> <span>DITA</span> <span>Oxygen XML</span> <span>GitHub</span>
+            </div>
+        </div>
+
     </main>
 
     <footer>

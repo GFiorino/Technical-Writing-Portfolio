@@ -42,6 +42,12 @@ Visit the live version of my portfolio here: [Technical Writing Portfolio](https
 8. **[AI-Enhanced Cybersecurity Strategies](https://github.com/GFiorino/AI-Enhanced-Cybersecurity-Strategies-for-Small-Businesses)**
    - **Description:** A white paper discussing how AI can strengthen cybersecurity strategies for small businesses.
    - **Technologies Used:** Markdown, GitHub Pages
+  
+ ## Corporate Documentation with Confluence and DITA  
+🔹 **Description:** This project demonstrates how Confluence and DITA are used for structured corporate documentation. It includes a real-world use case with a step-by-step guide, annotated screenshots, and Oxygen XML panel explanations.  
+🔹 **Tools Used:** Confluence, Oxygen XML, DITA, GitHub  
+📌 **Project Link:** [GitHub Repository](https://github.com/GFiorino/Corporate-Documentation-Confluence-DITA)  
+📌 **Live Guide:** [Confluence Page](https://gianpierofiorino.atlassian.net/wiki/spaces/~61713602702bd0006a7a0a3e/pages/5570561/Corporate+Documentation+with+Confluence+and+DITA)  
 
 ---
 

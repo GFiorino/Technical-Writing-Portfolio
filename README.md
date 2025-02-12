@@ -16,7 +16,8 @@ Visit the live version of my portfolio here: [Technical Writing Portfolio](https
    - **Technologies Used:** Trello API, Markdown, GitHub Pages
 
 2. **[Binance API Dashboard](https://gfiorino.github.io/Binance-Api-Dashboard/)**
-   - **Description:** An interactive cryptocurrency dashboard that tracks real-time price trends for Bitcoin, Ethereum, and Binance Coin. Features simulated trade calculations and visually appealing charts.
+   - **Description:** An interactive cryptocurrency dashboard that tracks real-time price trends for Bitcoin, Ethereum, and Binance Coin. Features simulated trade calculations and visually appealing 
+     charts.
    - **Technologies Used:** Binance API, Chart.js, HTML, CSS, JavaScript
 
 3. **[Real-Time Chat API Documentation](https://github.com/GFiorino/Real-Time-Chat-API-Documentation)**

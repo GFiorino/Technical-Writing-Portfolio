@@ -50,7 +50,7 @@
         /* Intro Section */
         .intro-container {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 50px; /* Increased spacing */
         }
 
         .intro-image img {
@@ -58,12 +58,12 @@
             height: auto;
             border-radius: 8px;
             display: block;
-            margin: 0 auto;
+            margin: 0 auto 40px; /* Added more spacing below image */
         }
 
         .intro-text {
             max-width: 80%;
-            margin: 20px auto;
+            margin: 20px auto 50px; /* Increased spacing below paragraph */
             text-align: center;
         }
 
@@ -77,13 +77,13 @@
 
         /* Project Cards */
         .project {
-            margin: 30px 0;
+            margin: 50px 0; /* Increased spacing */
             padding: 20px;
             border-radius: 12px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
             background: #ffffff;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
-            border-left: 6px solid transparent;
+            border-left: 6px solid transparent; /* Restored color-coded left border */
             text-align: left;
         }
 
@@ -91,6 +91,13 @@
             transform: translateY(-5px);
             box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
         }
+
+        /* Color-Coded Borders */
+        .binance { border-left-color: #F3BA2F; } /* Binance Yellow */
+        .trello { border-left-color: #0079BF; }  /* Trello Blue */
+        .chatapi { border-left-color: #4DA8F0; } /* Chat API Blue */
+        .wifi { border-left-color: #28A745; }    /* Secure Wi-Fi Green */
+        .dita { border-left-color: #FF5733; } /* Corporate Documentation Orange */
 
         /* Project Titles */
         .project h3 {
@@ -120,6 +127,30 @@
             padding: 5px 10px;
             border-radius: 4px;
             font-weight: bold;
+        }
+
+        /* Call to Action Button */
+        .cta-container {
+            margin-top: 50px; /* Increased spacing */
+            padding: 30px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #F3BA2F; /* Binance Yellow for high visibility */
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.3s ease-in-out;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-button:hover {
+            background-color: #e0a800;
         }
 
         /* Footer */
@@ -176,23 +207,16 @@
         <!-- Real-Time Chat API Documentation -->
         <div class="project chatapi">
             <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
-            <p>I created this documentation for a real-time chat API, covering token-based security, authentication, and endpoint integration. 
-            This project is structured to help developers quickly integrate chat functionality into their applications.</p>
+            <p>I created this documentation for a real-time chat API, covering token-based security, authentication, and endpoint integration.</p>
             <div class="tools">
                 <span>Postman</span> <span>Markdown</span> <span>GitHub</span>
             </div>
         </div>
 
-        <!-- Corporate Documentation with Confluence & DITA -->
-        <div class="project dita">
-            <h3><a href="https://github.com/GFiorino/Corporate-Documentation-Confluence-DITA">Corporate Documentation with Confluence & DITA</a></h3>
-            <p>This project showcases best practices in corporate documentation using Confluence and DITA in Oxygen XML. 
-            It simulates real-world documentation workflows, providing structured guidelines and annotated examples.</p>
-            <div class="tools">
-                <span>Confluence</span> <span>DITA</span> <span>Oxygen XML</span> <span>GitHub</span>
-            </div>
+        <!-- Call to Action -->
+        <div class="cta-container">
+            <a href="mailto:gianpierofiorino@icloud.com" class="cta-button">Get in Touch</a>
         </div>
-<a href="mailto:gianpierofiorino@icloud.com" class="cta-button">Contact Me</a> 
     </main>
 
     <footer>

@@ -79,20 +79,82 @@
             border-radius: 8px;
         }
 
-        /* Project Cards */
+         /* Project Cards */
         .project {
-            margin: 30px 0;
+            margin: 50px 0;
             padding: 20px;
             border-radius: 12px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
             background: #ffffff;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
-            border-left: 6px solid transparent;
+            border-left: 6px solid transparent; /* Restored color-coded left border */
+            text-align: left;
         }
 
         .project:hover {
             transform: translateY(-5px);
             box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Color-Coded Borders */
+        .binance { border-left-color: #F3BA2F; } /* Binance Yellow */
+        .trello { border-left-color: #0079BF; }  /* Trello Blue */
+        .chatapi { border-left-color: #4DA8F0; } /* Chat API Blue */
+        .wifi { border-left-color: #28A745; }    /* Secure Wi-Fi Green */
+        .dita { border-left-color: #FF5733; } /* Corporate Documentation Orange */
+
+        /* Project Titles */
+        .project h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.6em;
+            font-weight: bold;
+        }
+
+        .project a {
+            text-decoration: none;
+        }
+
+        .project p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        .tools {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .tools span {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        /* Call to Action Button */
+        .cta-container {
+            margin-top: 50px; /* Increased spacing */
+            padding: 30px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #F3BA2F; /* Binance Yellow for high visibility */
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.3s ease-in-out;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-button:hover {
+            background-color: #e0a800;
         }
 
         /* Footer */
@@ -104,6 +166,15 @@
             border-top: 2px solid #292929;
             font-size: 0.9em;
         }
+
+        footer a {
+            text-decoration: none;
+            color: #F3BA2F;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+               
     </style>
 </head>
 <body>
@@ -159,7 +230,7 @@
 
     </main>
 
-    <footer>
+     <footer>
         &copy; 2025 Gianpiero Fiorino | <a href="mailto:gianpierofiorino@icloud.com">Email</a> | 
         <a href="https://www.linkedin.com/in/gianpiero-fiorino/">LinkedIn</a> | 
         <a href="https://github.com/GFiorino">GitHub</a>

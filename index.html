@@ -78,6 +78,72 @@
             height: auto;
             border-radius: 8px;
         }
+
+        /* Project Cards */
+        .project {
+            margin: 30px 0;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            background: #ffffff;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border-left: 6px solid transparent; /* Color-coded left border */
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Project Titles */
+        .project h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.6em;
+            font-weight: bold;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: #4A00E0;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        .tools {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .tools span {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            background: #F3F4F6;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1B263B;
+            color: #bbb;
+            border-top: 2px solid #292929;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #F3BA2F;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -100,36 +166,12 @@
                 <img src="plane-skills.png" alt="Technical Writing Principles - Airplane Diagram">
             </div>
         </div>
-
-        <!-- Binance API Dashboard -->
-        <div class="project binance">
-            <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard</a></h3>
-            <p>I built a cryptocurrency dashboard that connects to the Binance API, providing real-time price updates and historical trend analysis. 
-            This project includes documentation on how to interact with both public and private API endpoints.</p>
-            <div class="tools">
-                <span>JavaScript</span> <span>Chart.js</span> <span>GitHub Pages</span>
-            </div>
-        </div>
-
-        <!-- Real-Time Chat API Documentation -->
-        <div class="project chatapi">
-            <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
-            <p>I created this documentation for a real-time chat API, covering token-based security, authentication, and endpoint integration. 
-            This project is structured to help developers quickly integrate chat functionality into their applications.</p>
-            <div class="tools">
-                <span>Postman</span> <span>Markdown</span> <span>GitHub</span>
-            </div>
-        </div>
-
-        <!-- Corporate Documentation with Confluence & DITA -->
-        <div class="project dita">
-            <h3><a href="https://github.com/GFiorino/Corporate-Documentation-Confluence-DITA">Corporate Documentation with Confluence & DITA</a></h3>
-            <p>This project showcases best practices in corporate documentation using Confluence and DITA in Oxygen XML. 
-            It simulates real-world documentation workflows, providing structured guidelines and annotated examples.</p>
-            <div class="tools">
-                <span>Confluence</span> <span>DITA</span> <span>Oxygen XML</span> <span>GitHub</span>
-            </div>
-        </div>
     </main>
+
+    <footer>
+        &copy; 2025 Gianpiero Fiorino | <a href="mailto:gianpierofiorino@icloud.com">Email</a> | 
+        <a href="https://www.linkedin.com/in/gianpiero-fiorino/">LinkedIn</a> | 
+        <a href="https://github.com/GFiorino">GitHub</a>
+    </footer>
 </body>
 </html>

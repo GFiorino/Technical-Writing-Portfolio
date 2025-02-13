@@ -49,7 +49,7 @@
         /* Intro Section */
         .intro-container {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: space-between;
             gap: 20px;
             margin-bottom: 30px;
@@ -57,7 +57,7 @@
 
         .intro-text {
             flex: 1;
-            max-width: 55%;
+            max-width: 50%;
         }
 
         .intro-text h2 {
@@ -77,61 +77,7 @@
             max-width: 100%;
             height: auto;
             border-radius: 8px;
-            /* Removed box-shadow to make the image flat */
         }
-
-        /* Project Cards */
-        .project {
-            margin: 30px 0;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-            background: #ffffff;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-            border-left: 6px solid transparent; /* Color-coded left border */
-        }
-
-        .project:hover {
-            transform: translateY(-5px);
-            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-        }
-
-        /* Project Titles */
-        .project h3 {
-            margin: 0 0 10px 0;
-            font-size: 1.6em;
-            font-weight: bold;
-        }
-
-        .project a {
-            text-decoration: none;
-        }
-
-        .project p {
-            margin: 10px 0;
-            line-height: 1.5;
-        }
-
-        .tools {
-            margin-top: 15px;
-            font-size: 0.9em;
-            color: #555;
-        }
-
-        .tools span {
-            display: inline-block;
-            margin: 5px;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-weight: bold;
-        }
-
-        /* Color-Coded Cards */
-        .binance { border-left-color: #F3BA2F; } /* Binance Yellow */
-        .trello { border-left-color: #0079BF; }  /* Trello Blue */
-        .chatapi { border-left-color: #4DA8F0; } /* Chat API Blue */
-        .wifi { border-left-color: #28A745; }    /* Secure Wi-Fi Green */
-        .dita { border-left-color: #FF5733; } /* Corporate Documentation Orange */
 
         /* Footer */
         footer {
@@ -173,37 +119,6 @@
                 <img src="Plane.png" alt="Technical Writing Principles - Airplane Diagram">
             </div>
         </div>
-
-        <!-- Binance API Dashboard -->
-        <div class="project binance">
-            <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard</a></h3>
-            <p>I built a cryptocurrency dashboard that connects to the Binance API, providing real-time price updates and historical trend analysis. 
-            This project includes documentation on how to interact with both public and private API endpoints.</p>
-            <div class="tools">
-                <span>JavaScript</span> <span>Chart.js</span> <span>GitHub Pages</span>
-            </div>
-        </div>
-
-        <!-- Real-Time Chat API Documentation -->
-        <div class="project chatapi">
-            <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
-            <p>I created this documentation for a real-time chat API, covering token-based security, authentication, and endpoint integration. 
-            This project is structured to help developers quickly integrate chat functionality into their applications.</p>
-            <div class="tools">
-                <span>Postman</span> <span>Markdown</span> <span>GitHub</span>
-            </div>
-        </div>
-
-        <!-- Corporate Documentation with Confluence & DITA -->
-        <div class="project dita">
-            <h3><a href="https://github.com/GFiorino/Corporate-Documentation-Confluence-DITA">Corporate Documentation with Confluence & DITA</a></h3>
-            <p>This project showcases best practices in corporate documentation using Confluence and DITA in Oxygen XML. 
-            It simulates real-world documentation workflows, providing structured guidelines and annotated examples.</p>
-            <div class="tools">
-                <span>Confluence</span> <span>DITA</span> <span>Oxygen XML</span> <span>GitHub</span>
-            </div>
-        </div>
-
     </main>
 
     <footer>

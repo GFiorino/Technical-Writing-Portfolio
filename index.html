@@ -87,43 +87,12 @@
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
             background: #ffffff;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
-            border-left: 6px solid transparent; /* Color-coded left border */
+            border-left: 6px solid transparent;
         }
 
         .project:hover {
             transform: translateY(-5px);
             box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-        }
-
-        /* Project Titles */
-        .project h3 {
-            margin: 0 0 10px 0;
-            font-size: 1.6em;
-            font-weight: bold;
-        }
-
-        .project a {
-            text-decoration: none;
-            color: #4A00E0;
-        }
-
-        .project a:hover {
-            text-decoration: underline;
-        }
-
-        .tools {
-            margin-top: 15px;
-            font-size: 0.9em;
-            color: #555;
-        }
-
-        .tools span {
-            display: inline-block;
-            margin: 5px;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-weight: bold;
-            background: #F3F4F6;
         }
 
         /* Footer */
@@ -134,15 +103,6 @@
             color: #bbb;
             border-top: 2px solid #292929;
             font-size: 0.9em;
-        }
-
-        footer a {
-            text-decoration: none;
-            color: #F3BA2F;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
@@ -164,6 +124,31 @@
             </div>
             <div class="intro-image">
                 <img src="plane-skills.png" alt="Technical Writing Principles - Airplane Diagram">
+            </div>
+        </div>
+
+        <!-- Restoring Project Cards -->
+        <div class="project binance">
+            <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard</a></h3>
+            <p>I built a cryptocurrency dashboard that connects to the Binance API, providing real-time price updates and historical trend analysis.</p>
+            <div class="tools">
+                <span>JavaScript</span> <span>Chart.js</span> <span>GitHub Pages</span>
+            </div>
+        </div>
+
+        <div class="project chatapi">
+            <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
+            <p>I created documentation for a real-time chat API, covering token-based security, authentication, and endpoint integration.</p>
+            <div class="tools">
+                <span>Postman</span> <span>Markdown</span> <span>GitHub</span>
+            </div>
+        </div>
+
+        <div class="project dita">
+            <h3><a href="https://github.com/GFiorino/Corporate-Documentation-Confluence-DITA">Corporate Documentation with Confluence & DITA</a></h3>
+            <p>This project showcases best practices in corporate documentation using Confluence and DITA in Oxygen XML.</p>
+            <div class="tools">
+                <span>Confluence</span> <span>DITA</span> <span>Oxygen XML</span> <span>GitHub</span>
             </div>
         </div>
     </main>

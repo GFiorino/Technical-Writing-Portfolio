@@ -11,7 +11,7 @@ Visit the live version of my portfolio here: [Technical Writing Portfolio](https
 
 ## Featured Projects
 
-1. **[Trello API: Automating Task Management with Postman](https://gfiorino.github.io/Trello_Automating_Guide/)**
+1. **[Trello API: Automating Task Management with Postman]([ ](https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/))**
    - **Description:** Comprehensive guide on automating tasks in Trello using the Trello API. Includes detailed instructions, code examples, and troubleshooting tips to assist users.
    - **Technologies Used:** Trello API, Markdown, GitHub Pages
 

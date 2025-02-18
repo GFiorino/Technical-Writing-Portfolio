@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Technical Writing Portfolio of Gianpiero Fiorino, showcasing API documentation, cybersecurity writing, and technical guides.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gianpiero Fiorino - Technical Writing Portfolio</title>
     <style>
@@ -22,7 +23,6 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             border-bottom: 2px solid #292929;
         }
-
         header h1 {
             margin: 0;
             font-size: 2.4em;
@@ -30,7 +30,6 @@
             color: #bbb;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
         }
-
         header p {
             margin-top: 5px;
             font-size: 1.2em;
@@ -52,20 +51,41 @@
             align-items: center;
             justify-content: center;
             gap: 20px;
-            margin: 30px 0;
+            /* Reduced top margin to bring content higher */
+            margin: 20px 0;
         }
-
         .intro-text {
             text-align: center;
             max-width: 70%;
         }
-
         .intro-text h2 {
             margin-bottom: 10px;
         }
-
         .intro-text p {
             line-height: 1.6;
+        }
+
+        /* Skills Section */
+        .skills-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .skills-container h2 {
+            margin-bottom: 10px;
+        }
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .skills-list li {
+            background: #F1F5F9;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.95em;
         }
 
         /* Project Cards */
@@ -74,7 +94,7 @@
             align-items: center;
             justify-content: space-between;
             gap: 20px;
-            margin: 50px 0;
+            margin: 40px 0; /* Slightly reduced margin for tighter look */
             padding: 20px;
             border-radius: 12px;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
@@ -83,31 +103,49 @@
             border-left: 6px solid transparent;
             text-align: left;
         }
-
         .project:hover {
             transform: translateY(-5px);
             box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
         }
-
         .project img {
             max-width: 150px;
             height: auto;
             border-radius: 8px;
         }
-
         .project-content {
             flex: 1;
         }
-
-/* CTA Button */
-        .cta-container {
-            text-align: center;
-            margin-top: 50px;
+        .project-content h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        .project-content h3 a {
+            color: #1B263B;
+            text-decoration: none;
+        }
+        .project-content h3 a:hover {
+            text-decoration: underline;
+        }
+        .tools {
+            margin-top: 8px;
+            font-size: 0.9em;
+        }
+        .tools span {
+            background: #F1F5F9;
+            padding: 4px 8px;
+            margin-right: 6px;
+            border-radius: 6px;
+            color: #555;
         }
 
+        /* CTA Button */
+        .cta-container {
+            text-align: center;
+            margin-top: 30px;
+        }
         .cta-button {
             display: inline-block;
-            padding: 15px 25px;
+            padding: 12px 22px; /* Slightly reduced for a sleeker look */
             font-size: 1em;
             font-weight: bold;
             color: #ffffff;
@@ -118,7 +156,6 @@
             transition: background 0.3s ease-in-out;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
-
         .cta-button:hover {
             background-color: #e66a00;
         }
@@ -132,52 +169,67 @@
             border-top: 2px solid #292929;
             font-size: 0.9em;
         }
-
         footer a {
             text-decoration: none;
             color: #FFD700; /* Bright yellow for contrast */
             font-weight: bold;
         }
-
         footer a:hover {
             text-decoration: underline;
-        }
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #1B263B;
-            color: #bbb;
-            border-top: 2px solid #292929;
-            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
+    <!-- HEADER -->
     <header>
         <h1>Gianpiero Fiorino</h1>
         <p>Technical Writer | API Documentation | Cybersecurity</p>
     </header>
 
+    <!-- MAIN CONTENT -->
     <main>
+        <!-- INTRO SECTION -->
         <div class="intro-container">
             <div class="intro-text">
                 <h2>Technical Writing Portfolio</h2>
                 <p>
-                    During my years in aviation, I was always fascinated by manuals and check-lists, and their ability to distill complex procedures into clear, concise instructions. 
-                    Today, my dedication is in transforming complexity into clarity. I have a diverse range of technical writing samples in my portfolio as <strong>API documentation</strong>, 
-                    <strong>cybersecurity writing</strong> and <strong>technical guides</strong>. </p>                    
-                      <p>
-                          This page present just an overview, please click the links to view the samples.
+                    Transforming complex technical concepts into clear, user-friendly documentation. 
+                    My passion for clarity stems from years in aviation, where manuals and checklists shaped 
+                    my approach to precision and safety. Below, you’ll find a range of documentation samples, 
+                    from <strong>API references</strong> and <strong>cybersecurity guides</strong> to 
+                    <strong>technical how-tos</strong>.
                 </p>
             </div>
         </div>
 
+        <!-- SKILLS SECTION -->
+        <section class="skills-container">
+            <h2>Skills &amp; Tools</h2>
+            <ul class="skills-list">
+                <!-- Adapt to reflect your strongest skills/technologies -->
+                <li>API Documentation (REST, JSON)</li>
+                <li>Markdown &amp; Git</li>
+                <li>Confluence &amp; Jira</li>
+                <li>DITA (Oxygen XML)</li>
+                <li>Postman</li>
+                <li>JavaScript Basics</li>
+                <li>Cybersecurity Fundamentals</li>
+            </ul>
+        </section>
+
+        <!-- PROJECT SECTIONS -->
         <!-- Binance API Dashboard -->
         <div class="project binance">
             <div class="project-content">
-                <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard & Documentation</a></h3>
-                <p>I built a cryptocurrency dashboard that connects to the Binance API, providing real-time price updates and historical trend analysis.</p>
+                <h3>
+                    <a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html" target="_blank" rel="noopener">
+                        Binance API Dashboard &amp; Documentation
+                    </a>
+                </h3>
+                <p>
+                    A cryptocurrency dashboard leveraging the Binance API for real-time price data and historical trend analysis. 
+                    This project includes clear, step-by-step documentation for setup and usage.
+                </p>
                 <div class="tools">
                     <span>JavaScript</span> <span>Chart.js</span> <span>GitHub Pages</span>
                 </div>
@@ -188,8 +240,15 @@
         <!-- Real-Time Chat API Documentation -->
         <div class="project chatapi">
             <div class="project-content">
-                <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
-                <p>I created documentation for a real-time chat API, covering token-based security, authentication, and endpoint integration.</p>
+                <h3>
+                    <a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/" target="_blank" rel="noopener">
+                        Real-Time Chat API Documentation
+                    </a>
+                </h3>
+                <p>
+                    Comprehensive documentation for a real-time chat API, detailing token-based security, authentication flows, 
+                    endpoint integration, and best practices for developers.
+                </p>
                 <div class="tools">
                     <span>Postman</span> <span>Markdown</span> <span>GitHub</span>
                 </div>
@@ -200,8 +259,15 @@
         <!-- Corporate Documentation with Confluence & DITA -->
         <div class="project dita">
             <div class="project-content">
-                <h3><a href="https://github.com/GFiorino/Corporate-Documentation-Confluence-DITA">Corporate Documentation with Confluence & DITA</a></h3>
-                <p>This project showcases best practices in corporate documentation using Confluence and DITA in Oxygen XML.</p>
+                <h3>
+                    <a href="https://github.com/GFiorino/Corporate-Documentation-Confluence-DITA" target="_blank" rel="noopener">
+                        Corporate Documentation with Confluence &amp; DITA
+                    </a>
+                </h3>
+                <p>
+                    A showcase of corporate documentation best practices using Confluence for collaboration 
+                    and DITA in Oxygen XML for structured authoring and content reuse.
+                </p>
                 <div class="tools">
                     <span>Confluence</span> <span>DITA</span> <span>Oxygen XML</span> <span>GitHub</span>
                 </div>
@@ -209,29 +275,37 @@
             <img src="images/Confluence.png" alt="Corporate Documentation Screenshot">
         </div> 
 
-<!-- Trello API Automation -->
-<div class="project trello">
-    <div class="project-content">
-        <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API: Automating Task Management</a></h3>
-        <p>This project explores automating Trello workflows using the Trello API and Postman, with clear documentation on authentication, endpoints, and real-world use cases.</p>
-        <div class="tools">
-            <span>Postman</span> <span>REST API</span> <span>OAuth</span> <span>GitHub Pages</span>
+        <!-- Trello API Automation -->
+        <div class="project trello">
+            <div class="project-content">
+                <h3>
+                    <a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/" target="_blank" rel="noopener">
+                        Trello API: Automating Task Management
+                    </a>
+                </h3>
+                <p>
+                    Documentation and demos for automating Trello workflows using the Trello API and Postman, 
+                    covering authentication, endpoint usage, and real-world implementation scenarios.
+                </p>
+                <div class="tools">
+                    <span>Postman</span> <span>REST API</span> <span>OAuth</span> <span>GitHub Pages</span>
+                </div>
+            </div>
+            <img src="images/trello.png" alt="Trello API Automation Screenshot">
         </div>
-    </div>
-    <img src="images/trello.png" alt="Trello API Automation Screenshot">
-</div>
 
- <!-- CTA Button -->
+        <!-- CALL TO ACTION -->
         <div class="cta-container">
             <a href="mailto:gianpierofiorino@icloud.com" class="cta-button">Get in Touch</a>
         </div>
     </main>
 
+    <!-- FOOTER -->
     <footer>
-        &copy; 2025 Gianpiero Fiorino | <a href="mailto:gianpierofiorino@icloud.com">Email</a> | 
-        <a href="https://www.linkedin.com/in/gianpiero-fiorino/">LinkedIn</a> | 
-        <a href="https://github.com/GFiorino">GitHub</a>
+        &copy; 2025 Gianpiero Fiorino |
+        <a href="mailto:gianpierofiorino@icloud.com">Email</a> |
+        <a href="https://www.linkedin.com/in/gianpiero-fiorino/" target="_blank" rel="noopener">LinkedIn</a> |
+        <a href="https://github.com/GFiorino" target="_blank" rel="noopener">GitHub</a>
     </footer>
 </body>
 </html>
-

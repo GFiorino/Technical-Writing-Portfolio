@@ -105,7 +105,77 @@
         <h1>Gianpiero Fiorino</h1>
         <p>Technical Writer | API Documentation | Cybersecurity</p>
     </header>
+    
+ /* Intro Section */
+        .intro-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            /* Reduced top margin to bring content higher */
+            margin: 5px 0;
+        }
+        .intro-text {
+            text-align: center;
+            max-width: 70%;
+        }
+        .intro-text h2 {
+            margin-bottom: 10px;
+        }
+        .intro-text p {
+            line-height: 1.6;
+        }
 
+        /* Skills Section */
+        .skills-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .skills-container h2 {
+            margin-bottom: 10px;
+        }
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .skills-list li {
+            background: #F1F5F9;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.95em;
+        }
+
+ <!-- MAIN CONTENT -->
+    <main>
+        <!-- INTRO SECTION -->
+        <div class="intro-container">
+            <div class="intro-text">
+                <h2>Technical Writing Portfolio</h2>
+                <p>
+In aviation, I was fascinated by how checklists and QRGs transformed complex procedures into clear, actionable steps. That same focus on clarity and efficiency defines my approach to technical writing—turning intricate concepts into precise, user-friendly documentation. Below is a selection of my work, from API documentation to cybersecurity guides.
+                </p>
+            </div>
+        </div>
+
+<!-- SKILLS SECTION -->
+        <section class="skills-container">
+            <h2>Skills &amp; Tools</h2>
+            <ul class="skills-list">
+                <!-- Adapt to reflect your strongest skills/technologies -->
+                <li>API Documentation (REST, JSON)</li>
+                <li>Markdown &amp; Git</li>
+                <li>Confluence &amp; Jira</li>
+                <li>DITA (Oxygen XML)</li>
+                <li>Postman</li>
+                <li>JavaScript Basics</li>
+                <li>Cybersecurity Fundamentals</li>
+            </ul>
+        </section>
+        
     <main>
         <section class="projects-grid">
             <div class="project">
@@ -135,8 +205,30 @@
             </div>
         </section>
     </main>
+        
+/* CTA Button */
+        .cta-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 12px 22px; /* Slightly reduced for a sleeker look */
+            font-size: 1em;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #ff7f00; /* More vibrant orange */
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.3s ease-in-out;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 5px; /* Adds extra space above the section title */        }
+        .cta-button:hover {
+            background-color: #e66a00;
 
-    <!-- Footer -->
+        
+        }    <!-- Footer -->
     <footer>
         &copy; 2025 Gianpiero Fiorino |
         <a href="mailto:gianpierofiorino@icloud.com">Email</a> |

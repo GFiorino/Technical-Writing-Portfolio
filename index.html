@@ -33,8 +33,8 @@
             color: #bbb;
         }
 
-        /* Main Container */
-        .container {
+        /* Unified Content Card */
+        .content-card {
             max-width: 900px;
             margin: 30px auto;
             padding: 30px;
@@ -46,7 +46,7 @@
 
         /* Introduction */
         .intro-text {
-            max-width: 80%;
+            max-width: 75%;
             margin: auto;
             font-size: 1.1em;
             line-height: 1.6;
@@ -76,21 +76,12 @@
         }
 
         /* Projects Section */
-        .projects-section {
-            text-align: center;
-            margin-bottom: 30px;
-        }
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
             justify-content: center;
-            max-width: 75%;
-            margin: 0 auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
         }
         .project {
             background: #fff;
@@ -121,7 +112,7 @@
         /* CTA Button */
         .cta-container {
             text-align: center;
-            margin: 50px 0 80px;
+            margin: 50px 0 100px;
         }
         .cta-button {
             display: inline-block;
@@ -148,7 +139,6 @@
             color: #FFD700;
             font-weight: bold;
         }
-
     </style>
 </head>
 <body>
@@ -157,7 +147,7 @@
         <p>Technical Writer | API Documentation | Cybersecurity</p>
     </header>
 
-   
+    <div class="content-card">
         <section class="intro-text">
             <p>In aviation, I was fascinated by how checklists and QRGs transformed complex procedures into clear, actionable steps. That same focus on clarity and efficiency defines my approach to technical writing—turning intricate concepts into precise, user-friendly documentation. Below is a selection of my work, from API documentation to cybersecurity guides.</p>
         </section>
@@ -175,53 +165,21 @@
             </ul>
         </section>
 
-    <style>
-    .intro-text {
-    max-width: 60%;
-    margin: 40px auto 30px auto;
-    text-align: center;
-    line-height: 1.6;
-}</style>
-
-    <section class="projects-section">
-        <div class="projects-grid">
-            <div class="project">
-                <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API Automation</a></h3>
-                <img src="images/trello.png" alt="Trello API">
-                <p>Automating workflows using Trello API and Postman, covering authentication and <strong>endpoint</strong> usage.</p>
-            </div>
-            <div class="project">
-                <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard</a></h3>
-                <img src="images/Binance.png" alt="Binance API">
-                <p>A cryptocurrency dashboard leveraging the Binance API for real-time price tracking and data analysis with <strong>documentation</strong>.</p>
-            </div>
-            <div class="project">
-                <h3><a href="https://gfiorino.github.io/How-to-Secure-Home-WiFi-Guide/">Secure Wi-Fi Guide</a></h3>
-                <img src="images/secure-wifi.png" alt="Secure Wi-Fi">
-                <p>Step-by-step guide for improving home <strong>network security</strong> and protecting against cyber threats.</p>
-            </div>
-            <div class="project">
-                <h3><a href="https://gfiorino.github.io/Home-Assistant-User-Guide/">Home Assistant Guide</a></h3>
-                <img src="images/HomeAssistant.png" alt="Home Assistant">
-                <p>Comprehensive documentation for setting up and automating a <strong>smart home system</strong> with Home Assistant.</p>
-            </div>
-            <div class="project">
-                <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API</a></h3>
-                <img src="images/Chat API.png" alt="Chat API">
-                <p>Detailed documentation on authentication, security, and real-time communication for a chat API.</p>
-            </div>
-        </div>
-    </section>
+        <section class="projects-grid">
+            <div class="project"><h3><a href="#">Trello API Automation</a></h3></div>
+            <div class="project"><h3><a href="#">Binance API Dashboard</a></h3></div>
+            <div class="project"><h3><a href="#">Secure Wi-Fi Guide</a></h3></div>
+            <div class="project"><h3><a href="#">Home Assistant Guide</a></h3></div>
+            <div class="project"><h3><a href="#">Real-Time Chat API Documentation</a></h3></div>
+        </section>
+    </div>
 
     <div class="cta-container">
         <a href="mailto:gianpierofiorino@icloud.com" class="cta-button">Get in Touch</a>
     </div>
 
     <footer>
-        &copy; 2025 Gianpiero Fiorino | 
-        <a href="mailto:gianpierofiorino@icloud.com">Email</a> | 
-        <a href="https://www.linkedin.com/in/gianpiero-fiorino/" target="_blank">LinkedIn</a> | 
-        <a href="https://github.com/GFiorino" target="_blank">GitHub</a>
+        &copy; 2025 Gianpiero Fiorino | <a href="mailto:gianpierofiorino@icloud.com">Email</a> | <a href="https://www.linkedin.com/in/gianpiero-fiorino/" target="_blank">LinkedIn</a> | <a href="https://github.com/GFiorino" target="_blank">GitHub</a>
     </footer>
 </body>
 </html>

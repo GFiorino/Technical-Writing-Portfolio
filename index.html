@@ -44,42 +44,10 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        /* Introduction */
-        .intro-container {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .intro-container p {
-            font-size: 1.1em;
-            line-height: 1.6;
-            max-width: 80%;
-            margin: auto;
-        }
-
-        /* Skills Section */
-        .skills-container {
-            margin: 30px 0;
-            text-align: center;
-        }
-        .skills-list {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-        }
-        .skills-list li {
-            background: #F1F5F9;
-            padding: 8px 12px;
-            border-radius: 8px;
-            font-size: 0.9em;
-        }
-
         /* Project Grid */
         .projects-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
             margin-top: 30px;
         }
@@ -138,52 +106,35 @@
         <p>Technical Writer | API Documentation | Cybersecurity</p>
     </header>
 
-    <!-- Introduction -->
-    <section class="intro-container">
-        <h2>About Me</h2>
-        <p>I specialize in transforming complex information into clear, structured documentation that enhances user experience and accessibility. My background in aviation and cybersecurity has given me a unique perspective on precision and clarity in writing. Below is a selection of my work.</p>
-    </section>
-
-    <section class="skills-container">
-        <h2>Skills & Tools</h2>
-        <ul class="skills-list">
-            <li>API Documentation (REST, JSON)</li>
-            <li>Markdown & Git</li>
-            <li>Confluence & Jira</li>
-            <li>DITA (Oxygen XML)</li>
-            <li>Postman</li>
-            <li>JavaScript Basics</li>
-            <li>Cybersecurity Fundamentals</li>
-        </ul>
-    </section>
-
-    <section class="projects-grid">
-        <div class="project">
-            <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API Automation</a></h3>
-            <img src="images/trello.png" alt="Trello API">
-            <p>Automating workflows using Trello API and Postman, covering authentication and endpoint usage.</p>
-        </div>
-        <div class="project">
-            <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard</a></h3>
-            <img src="images/binance.png" alt="Binance API">
-            <p>A cryptocurrency dashboard leveraging the Binance API for real-time price tracking and data analysis.</p>
-        </div>
-        <div class="project">
-            <h3><a href="https://gfiorino.github.io/How-to-Secure-Home-WiFi-Guide/">Secure Wi-Fi Guide</a></h3>
-            <img src="images/secure-wifi.png" alt="Secure Wi-Fi">
-            <p>Step-by-step guide for improving home network security and protecting against cyber threats.</p>
-        </div>
-        <div class="project">
-            <h3><a href="https://gfiorino.github.io/Home-Assistant-User-Guide/">Home Assistant Guide</a></h3>
-            <img src="images/home-assistant.png" alt="Home Assistant">
-            <p>Comprehensive documentation for setting up and automating a smart home system with Home Assistant.</p>
-        </div>
-        <div class="project">
-            <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
-            <img src="images/chat-api.png" alt="Chat API">
-            <p>Detailed documentation on authentication, security, and real-time communication for a chat API.</p>
-        </div>
-    </section>
+    <main>
+        <section class="projects-grid">
+            <div class="project">
+                <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API Automation</a></h3>
+                <img src="images/trello.png" alt="Trello API">
+                <p>Automating workflows using Trello API and Postman, covering authentication and endpoint usage.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard</a></h3>
+                <img src="images/binance.png" alt="Binance API">
+                <p>A cryptocurrency dashboard leveraging the Binance API for real-time price tracking and data analysis.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://gfiorino.github.io/How-to-Secure-Home-WiFi-Guide/">Secure Wi-Fi Guide</a></h3>
+                <img src="images/secure-wifi.png" alt="Secure Wi-Fi">
+                <p>Step-by-step guide for improving home network security and protecting against cyber threats.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://gfiorino.github.io/Home-Assistant-User-Guide/">Home Assistant Guide</a></h3>
+                <img src="images/home-assistant.png" alt="Home Assistant">
+                <p>Comprehensive documentation for setting up and automating a smart home system with Home Assistant.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
+                <img src="images/chat-api.png" alt="Chat API">
+                <p>Detailed documentation on authentication, security, and real-time communication for a chat API.</p>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>

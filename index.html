@@ -18,25 +18,23 @@
         /* Header */
         header {
             text-align: center;
-            padding: 50px 20px 30px;
+            padding: 40px 20px 30px;
             background: #1B263B;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            color: #fff;
             border-bottom: 2px solid #292929;
         }
         header h1 {
             margin: 0;
-            font-size: 2.2em;
-            font-weight: bold;
-            color: #fff;
+            font-size: 2.4em;
         }
         header p {
             margin-top: 5px;
-            font-size: 1.1em;
+            font-size: 1.2em;
             color: #bbb;
         }
 
         main {
-            max-width: 1100px;
+            max-width: 1000px;
             margin: 20px auto;
             padding: 20px;
             background: #ffffff;
@@ -44,23 +42,22 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        /* Introduction */
+        /* Intro Section */
         .intro-container {
             text-align: center;
-            margin-bottom: 40px;
-            padding: 0 20px;
+            margin-bottom: 30px;
         }
-        .intro-container p {
-            font-size: 1.1em;
-            line-height: 1.6;
+        .intro-text {
             max-width: 80%;
             margin: auto;
+            font-size: 1.1em;
+            line-height: 1.6;
         }
 
         /* Skills Section */
         .skills-container {
-            margin: 30px 0;
             text-align: center;
+            margin-bottom: 30px;
         }
         .skills-list {
             list-style: none;
@@ -74,7 +71,7 @@
             background: #F1F5F9;
             padding: 8px 12px;
             border-radius: 8px;
-            font-size: 0.9em;
+            font-size: 0.95em;
         }
 
         /* Project Grid */
@@ -87,10 +84,8 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
             justify-content: center;
-            padding: 20px;
-        }
-        .projects-grid.second-row {
-            grid-template-columns: repeat(2, 1fr);
+            max-width: 66%;
+            margin: 0 auto;
         }
         .project {
             background: #fff;
@@ -105,17 +100,13 @@
             box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
         }
         .project img {
-            width: 100%;
-            max-height: 150px;
-            object-fit: contain;
-            border-radius: 8px;
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
         }
         .project h3 a {
             color: #1B263B;
             text-decoration: none;
-        }
-        .project h3 a:hover {
-            text-decoration: underline;
         }
         .project p {
             font-size: 0.9em;
@@ -126,7 +117,6 @@
         .cta-container {
             text-align: center;
             margin-top: 40px;
-            padding-bottom: 20px;
         }
         .cta-button {
             display: inline-block;
@@ -138,11 +128,6 @@
             border: none;
             border-radius: 8px;
             text-decoration: none;
-            transition: background 0.3s ease-in-out;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-        .cta-button:hover {
-            background-color: #e66a00;
         }
 
         /* Footer */
@@ -155,13 +140,10 @@
             font-size: 0.9em;
         }
         footer a {
-            text-decoration: none;
             color: #FFD700;
             font-weight: bold;
         }
-        footer a:hover {
-            text-decoration: underline;
-        }
+
     </style>
 </head>
 <body>
@@ -191,29 +173,27 @@
         <h2>Projects</h2>
         <div class="projects-grid">
             <div class="project">
-                <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/" target="_blank">Trello API Automation</a></h3>
+                <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API Automation</a></h3>
                 <img src="images/trello.png" alt="Trello API">
                 <p>Automating workflows using Trello API and Postman, covering authentication and endpoint usage.</p>
             </div>
             <div class="project">
-                <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html" target="_blank">Binance API Dashboard</a></h3>
+                <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard</a></h3>
                 <img src="images/binance.png" alt="Binance API">
                 <p>A cryptocurrency dashboard leveraging the Binance API for real-time price tracking and data analysis.</p>
             </div>
             <div class="project">
-                <h3><a href="https://gfiorino.github.io/How-to-Secure-Home-WiFi-Guide/" target="_blank">Secure Wi-Fi Guide</a></h3>
+                <h3><a href="https://gfiorino.github.io/How-to-Secure-Home-WiFi-Guide/">Secure Wi-Fi Guide</a></h3>
                 <img src="images/secure-wifi.png" alt="Secure Wi-Fi">
                 <p>Step-by-step guide for improving home network security and protecting against cyber threats.</p>
             </div>
-        </div>
-        <div class="projects-grid second-row">
             <div class="project">
-                <h3><a href="https://gfiorino.github.io/Home-Assistant-User-Guide/" target="_blank">Home Assistant Guide</a></h3>
+                <h3><a href="https://gfiorino.github.io/Home-Assistant-User-Guide/">Home Assistant Guide</a></h3>
                 <img src="images/home-assistant.png" alt="Home Assistant">
                 <p>Comprehensive documentation for setting up and automating a smart home system with Home Assistant.</p>
             </div>
             <div class="project">
-                <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/" target="_blank">Real-Time Chat API Documentation</a></h3>
+                <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
                 <img src="images/chat-api.png" alt="Chat API">
                 <p>Detailed documentation on authentication, security, and real-time communication for a chat API.</p>
             </div>
@@ -225,7 +205,10 @@
     </div>
 
     <footer>
-        &copy; 2025 Gianpiero Fiorino | <a href="mailto:gianpierofiorino@icloud.com">Email</a> | <a href="https://www.linkedin.com/in/gianpiero-fiorino/" target="_blank">LinkedIn</a> | <a href="https://github.com/GFiorino" target="_blank">GitHub</a>
+        &copy; 2025 Gianpiero Fiorino | 
+        <a href="mailto:gianpierofiorino@icloud.com">Email</a> | 
+        <a href="https://www.linkedin.com/in/gianpiero-fiorino/" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/GFiorino" target="_blank">GitHub</a>
     </footer>
 </body>
 </html>

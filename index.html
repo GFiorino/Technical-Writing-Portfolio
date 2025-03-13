@@ -44,6 +44,18 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
+        /* Introduction */
+        .intro-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .intro-container p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            max-width: 80%;
+            margin: auto;
+        }
+
         /* Skills Section */
         .skills-container {
             margin: 30px 0;
@@ -96,25 +108,22 @@
             text-decoration: underline;
         }
 
-        /* Call to Action */
-        .cta-container {
+        /* Footer */
+        footer {
             text-align: center;
-            margin-top: 30px;
+            padding: 20px;
+            background: #1B263B;
+            color: #bbb;
+            border-top: 2px solid #292929;
+            font-size: 0.9em;
         }
-        .cta-button {
-            display: inline-block;
-            padding: 12px 22px;
-            font-size: 1em;
-            font-weight: bold;
-            color: #ffffff;
-            background-color: #ff7f00;
-            border: none;
-            border-radius: 8px;
+        footer a {
             text-decoration: none;
-            transition: background 0.3s ease-in-out;
+            color: #FFD700;
+            font-weight: bold;
         }
-        .cta-button:hover {
-            background-color: #e66a00;
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -125,49 +134,47 @@
         <p>Technical Writer | API Documentation | Cybersecurity</p>
     </header>
 
-    <!-- Main Content -->
-    <main>
-        <section class="skills-container">
-            <h2>Skills & Tools</h2>
-            <ul class="skills-list">
-                <li>API Documentation (REST, JSON)</li>
-                <li>Markdown & Git</li>
-                <li>Confluence & Jira</li>
-                <li>DITA (Oxygen XML)</li>
-                <li>Postman</li>
-                <li>JavaScript Basics</li>
-                <li>Cybersecurity Fundamentals</li>
-            </ul>
-        </section>
+    <!-- Introduction -->
+    <section class="intro-container">
+        <h2>About Me</h2>
+        <p>I specialize in transforming complex information into clear, structured documentation that enhances user experience and accessibility. My background in aviation and cybersecurity has given me a unique perspective on precision and clarity in writing. Below is a selection of my work.</p>
+    </section>
 
-        <section class="projects-grid">
-            <div class="project">
-                <h3><a href="#">Trello API Automation</a></h3>
-                <img src="images/trello.png" alt="Trello API">
-            </div>
-            <div class="project">
-                <h3><a href="#">Binance API Dashboard</a></h3>
-                <img src="images/binance.png" alt="Binance API">
-            </div>
-            <div class="project">
-                <h3><a href="#">Secure Wi-Fi Guide</a></h3>
-                <img src="images/secure-wifi.png" alt="Secure Wi-Fi">
-            </div>
-            <div class="project">
-                <h3><a href="#">Home Assistant Guide</a></h3>
-                <img src="images/home-assistant.png" alt="Home Assistant">
-            </div>
-            <div class="project">
-                <h3><a href="#">Real-Time Chat API Documentation</a></h3>
-                <img src="images/chat-api.png" alt="Chat API">
-            </div>
-        </section>
-    </main>
+    <section class="skills-container">
+        <h2>Skills & Tools</h2>
+        <ul class="skills-list">
+            <li>API Documentation (REST, JSON)</li>
+            <li>Markdown & Git</li>
+            <li>Confluence & Jira</li>
+            <li>DITA (Oxygen XML)</li>
+            <li>Postman</li>
+            <li>JavaScript Basics</li>
+            <li>Cybersecurity Fundamentals</li>
+        </ul>
+    </section>
 
-    <!-- Call to Action -->
-    <div class="cta-container">
-        <a href="mailto:gianpierofiorino@icloud.com" class="cta-button">Get in Touch</a>
-    </div>
+    <section class="projects-grid">
+        <div class="project">
+            <h3><a href="https://gfiorino.github.io/Trello-API-Automating-Task-Management-with-Postman/">Trello API Automation</a></h3>
+            <img src="images/trello.png" alt="Trello API">
+        </div>
+        <div class="project">
+            <h3><a href="https://gfiorino.github.io/Binance-Api-Dashboard/index.html">Binance API Dashboard</a></h3>
+            <img src="images/binance.png" alt="Binance API">
+        </div>
+        <div class="project">
+            <h3><a href="https://gfiorino.github.io/How-to-Secure-Home-WiFi-Guide/">Secure Wi-Fi Guide</a></h3>
+            <img src="images/secure-wifi.png" alt="Secure Wi-Fi">
+        </div>
+        <div class="project">
+            <h3><a href="https://gfiorino.github.io/Home-Assistant-User-Guide/">Home Assistant Guide</a></h3>
+            <img src="images/home-assistant.png" alt="Home Assistant">
+        </div>
+        <div class="project">
+            <h3><a href="https://gfiorino.github.io/Real-Time-Chat-API-Documentation/">Real-Time Chat API Documentation</a></h3>
+            <img src="images/chat-api.png" alt="Chat API">
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer>
